@@ -38,8 +38,18 @@ img {
 
 .href {
     
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: #284B63;
+}
+
+.link1 {
+    font-size: 1.5em;
+    color: #373b3d;
+}
+
+hr {s
+    margin: 0;
+    border-width: 1px;
 }
 
 footer {
