@@ -99,3 +99,19 @@ header {
   
     /* end of media query */
   }
+
+
+  /* footer */
+  footer {
+    background: #3C6E71;
+} 
+
+
+.footer {
+    padding: 50px;
+    color: #fff;
+}
+
+.byui {
+    color: #fff;
+}
