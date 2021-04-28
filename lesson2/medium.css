@@ -1,8 +1,24 @@
-@media screen and (max-width: 1048px) {
+@media (max-width: 1330px) {
+
+    body {
+        /* width: 768px; */
+        
+       
+    }
+
     .screenshots {
-   
-    width: 590;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
     }
 
 
-  }
+    .description {
+        width: 200px;
+    }
+    
+    .screenshots-1 {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}

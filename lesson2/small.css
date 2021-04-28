@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header_text {
+        font-size: 2em;
+    }
+
+    .title {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.4em;
+    }
+
+    .href {
+        font-size: 1em;
+    }
+
+    .screenshots {
+        justify-content: center;
+    }
+
+    .description {
+        margin: 20px;
+    }
+
+    .screenshots-1 {
+        justify-content: center;
+    }
+}

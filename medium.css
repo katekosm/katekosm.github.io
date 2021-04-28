@@ -1,5 +1,7 @@
-@media (min-width: 32.5em) {
+@media (max-width: 32.5em) {
+
     body {
         float: right;
+       
     }
 }
