@@ -1,15 +1,10 @@
 @media (max-width: 1330px) {
 
-    body {
-        /* width: 768px; */
-        
-       
-    }
+   
 
     .screenshots {
         align-items: flex-start;
         flex-wrap: wrap;
-        
     }
 
 
