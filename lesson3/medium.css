@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+
+    .header__nav ul {
+        display: block;
+
+    }
+    .nav__item {
+    margin: 0 auto;
+ }
+
+    .personas {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    table {
+        width: 80%;
+    }
+
+    .second_table {
+        margin-left: 0;
+    }
+
+    .colors {
+       display: flex;
+       justify-content: center;
+       border: none;
+       
+    }
+
+    .colors tr, .colors th, .colors td {
+        display: block;
+        
+    }
+    .colors td {
+        padding: 10px 20px;
+    }
+
+    .colors tbody {
+        display: flex;
+        
+    }
+}

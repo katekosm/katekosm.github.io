@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+
+  
+
+    table {
+        width: 95%;
+    }
+
+    .list {
+        padding-left: 5px;
+    }
+}

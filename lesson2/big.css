@@ -2,7 +2,7 @@
 /* header */
 
 body {
-    /* width: 1440px; */
+    
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -78,27 +78,6 @@ header {
 .screenshots-1 {
     display: flex;
 }
-
-@media screen and (max-width: 1330px) {
-    /* beginning of media query */
-    .home-grid {
-      display: block;
-    }
-  
-    .home-grid,
-    nav ul {
-      display: block;
-    }
-    .home-grid,
-    nav ul,
-    .banner-box {
-      display: block;
-    }
-  
-    /* end of media query */
-  }
-
-
   /* footer */
   footer {
     background: #3C6E71;
