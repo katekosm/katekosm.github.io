@@ -24,7 +24,6 @@ body {
       margin: 0 auto;
       display: flex;
       text-align: center;
-     
       border: 1px solid #eae7e2;
       width: 100%;
       justify-content: center;
@@ -66,66 +65,10 @@ body {
       opacity: 0.7;
   }
 
-  main {
-      padding: 30px;
-      
-  }
 
   section {
     padding: 70px;
    
   }
 
-  /* personas */
-
- /* table {
-    margin: 0em 0 .8em 0;
-    line-height: 1.5em;
-    border: 1px solid #eae7e2;
-    width: 100%;
-    font-size: 1em;
-    table-layout: fixed;
-    border-collapse: collapse;
- } 
   
- th {
-    border: 1px solid #eae7e2;
-     padding: 10px 20px;
-     font-weight: bold;
- }
-
- td {
-    border: 1px solid #eae7e2;
-    padding: 1.250em;
- }
-
-
-
-
- .color {
-     padding: 20px;
- }
-
- .colors {
-     width: 700px;
-     margin: auto;
-     margin-bottom: 50px;
- }
-
-.primary {
-    color: #7A9DD7;
-}
-.secondary {
-    color: #9EB5DC;
-}
-.accent1 {
-    color: #E6E6E6;
-}
-.accent2 {
-    color: #EDE342;
-}
-
-.tint {
-    text-align: center;
-} 
-*/
