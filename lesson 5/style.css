@@ -25,9 +25,17 @@ main {
 	grid-template-columns: 1;
 }
 
-input,
+
+
+input {
+    padding: 0.5rem;
+}
+
 button {
 	padding: 0.5rem;
+    background: rgba(9,9,121,0.24833683473389356) 20%;
+    border-radius: 10px;
+  
 }
 
 label {
@@ -49,3 +57,4 @@ li {
 	justify-content: space-between;
 	margin-bottom: .5rem;
 }
+
