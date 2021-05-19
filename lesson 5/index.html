@@ -1,31 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-    <title>Book of Mormon</title>
-</head>
-<body>
-    <h1>📘 Book of Mormon - Top 25</h1>
-    
-    <main>
-	    <div class="input">
-		    <label for="chapter">Enter Book and Chapter</label>
-		    <input id="chapter" type="text" id="fav" placeholder="Alma 5">
-		    <button type="button">Add Chapter</button>
-	    </div>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Weather Website</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/small.css"> 
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/big.css">
+  </head>
 
-    	<div class="list">
-	    	<ul>
+  <body>
+    <!-- HEADER HERE -->
+      <header>
+             <img class="logo" src="images/weather-ios.svg"  alt="Logo image" />
+             <div>
+                <h1>Meteomap</h1>
+                 <h2>World Weather Information Service
+              Official Forecasts</h2>
+            </div>
+      </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>    
+                <li><a href="#">Storm Center</a></li>    
+                <li><a href="#">Gallery</a></li>    
+            </ul>
+        </nav>
 
-		    </ul>
-	    </div>
-    </main>
-    
-	<script src="script.js"> </script>
-</body>
+
+
+        <main>
+            <h2 class="main_city">Preston Idaho</h2>
+           <div class="contents">
+             <img src="images/weather2.jpg" alt="picture of clouds" class="picture">
+             <div class="summary">
+               <h2 class="weather_summary">Weather Summary</h2>
+               <table>
+                 <tbody>
+                   <tr class="table_1">
+                     <th class="table_1">
+                       <p>Currently:</p>
+                     </th>
+                     <td class="table_1">
+                      <p>Sunny</p>
+                     </td>
+                  </tr>
+                  <tr class="table_1">
+                    <th class="table_1">
+                      <p>High:</p>
+                    </th>
+                    <td class="table_1"> 
+                     <p>76°F</p>
+                    </td>
+                 </tr>
+                 <tr class="table_1">
+                  <th class="table_1">
+                    <p>Humidity: </p>
+                  </th>
+                  <td class="table_1">
+                   <p> 39%</p>
+                  </td>
+               </tr>
+               <tr class="table_1">
+                <th class="table_1">
+                  <p>Wind Speed:</p>
+                </th>
+                <td class="table_1">
+                 <p>12 mph</p>
+                </td>
+             </tr>
+                 </tbody>
+               </table>
+
+             </div>
+           </div>
+
+           <div class="forecast">
+             <h2 class="forecast_title">
+               5 Day Forecast
+             </h2>
+
+             <table class="table_forecast">
+              <tbody>
+                <tr>
+                  <th class="day">
+                    <p class="day">wed</p>
+                  </th>
+                  <th class="day">
+                    <p class="day">Thu</p>
+                  </th>
+                  <th class="day">
+                    <p class="day">Fri</p>
+                  </th>
+                  <th class="day">
+                    <p class="day">Sat</p>
+                  </th>
+                  <th class="day">
+                    <p class="day">Sun</p>
+                  </th>
+                </tr>
+                <tr>
+                  <th>
+                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
+                  </th>
+                  <th>
+                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
+                  </th>
+                  <th>
+                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
+                  </th>
+                  <th>
+                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
+                  </th>
+                  <th>
+                    <img src="images/rain_s_cloudy (1).png" alt="partly cloudy" class="broadcast">
+                  </th>
+                 
+               </tr>
+               
+                <tr>
+                  <th>
+                    <p class="temperature">77°</p>
+                  </th>
+                  <th>
+                    <p class="temperature">69°</p>
+                  </th>
+                  <th>
+                    <p class="temperature">64°</p>
+                  </th>
+                  <th>
+                    <p class="temperature">65°</p>
+                  </th>
+                  <th>
+                    <p class="temperature">59°</p>
+                  </th>
+               </tr>
+               
+              </tbody>
+             </table>
+           </div>
+
+
+           <div class="article">
+             <h3 class="article_">Bermuda's hurricanes are twice as strong as they were six decades ago</h3>
+             <h4>By Harry Baker - Staff Writer 3 months ago</h4>
+             <p class="article_text">Hurricanes are blasting Bermuda with wind speeds that have more than doubled in strength over the last 66 years, due to rising ocean temperatures in the region as a result of climate change, according to a new study.
+
+              Within a 62-mile (100 kilometers) radius of Bermuda, the average maximum wind speed of hurricanes increased from 35 to 73 mph (56 to 117 km/h) between 1955 and 2019, the researchers found. This is the equivalent of a 6 mph (10 km/h) increase every decade.
+              
+              During this time, sea-surface temperatures in the region also increased by up to two degrees Fahrenheit (1.1 degrees Celsius), according to the Bermuda Atlantic Time Series (BATS), a long-running dataset collected by the Bermuda Institute of Ocean Sciences. </p>
+             <img src="images/bermuda.jpeg" alt="bermuda's hurricanes" class="ocean">
+           </div>
+          
+        </main>
+
+        <!-- <footer>
+            <p>&copy; 2021 &bull; Ekaterina Kosmynina &bull; 123-555-6789</p>
+        </footer> -->
+        <footer>
+          <div class="footer">©
+              <span id="date"></span>
+               | Ekaterina Kosmynina
+  
+               <p>Last update: 05/11/2021</p>
+          </div>
+      </footer>
+      <script src="js/date.js"></script>
+        
+    <script src="js/script.js"> </script>
+
+    </body>
 </html>
