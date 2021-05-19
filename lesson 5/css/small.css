@@ -119,13 +119,15 @@ footer {
     position: relative;
     
 }
-
+.contents {
+    position: relative;
+}
 .summary {
     position: absolute;
     width: 160px;
     /* height: 130px; */
     left: 30px;
-    top: 220px;
+    top: 30px;
 
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
@@ -186,20 +188,60 @@ p {
 /* article */
 .article {
     padding: 20px;
-    box-shadow: 0px 4px 30px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 20px;
+    box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+    font-size: 1.6em;
+    margin: 50px;
 }
 
 .ocean {
-    width: 50%;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
-.article_ {
-    font-size: 1.6em;
-    margin: 0;
-}
+
 
 h4 {
     margin: 5px 0;
     font-style: italic;
     color: #384862;
+}
+
+.article_text {
+    margin: 10px 0 ;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* map */
+.preston {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact {
+    position: absolute;
+    width: 200px;
+    /* height: 130px; */
+    left: 30px;
+    top: 100px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 5px;
+    font-size: .8em;
+    padding: 5px;
+}   
+
+.icon {
+    max-width: 50px;
 }

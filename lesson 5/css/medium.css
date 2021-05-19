@@ -32,7 +32,7 @@
         width: 220px;
         height: 130px;
         left: 60px;
-        top: 250px;
+        top: 70px;
         padding: 10px;
     }
     
@@ -48,4 +48,14 @@
         width: 628px;
         
     }
+
+    .article {
+        width: 628px;
+        margin: 50px auto;
+    }
+    .article_text {
+        font-size: 0.8em;
+    }
+
+
 }
