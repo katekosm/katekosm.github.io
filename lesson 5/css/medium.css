@@ -49,13 +49,39 @@
         
     }
 
-    .article {
+    /* .article {
         width: 628px;
         margin: 50px auto;
-    }
+    } */
     .article_text {
         font-size: 0.8em;
     }
 
+    .contact_info {
+        width: 628px;
+        margin: 50px auto;
+        display: flex;
+    }
+
+
+    .map_picture {
+        max-width: 300px;
+    }
+
+    .ocean {
+        max-width: 550px;
+    }
+ 
+    .contact {
+        text-align: left;
+    }
+
+    .con {
+        margin: 10px;
+    }
+
+    .social {
+        margin: 10px;
+    }
 
 }

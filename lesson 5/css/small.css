@@ -90,16 +90,7 @@ main {
     margin: 0;
 }
 
-/* .contents {
-    justify-content: center;
-    text-align: center;
-    border: 1px solid rgb(0, 0, 0, 0.3);
-    background-color: #c1d2ee;
-    margin-bottom: 10px;
-    display: block;
-    cursor: pointer;
-    margin: 0;
-} */
+
 
 footer {
    text-align: center;
@@ -188,16 +179,19 @@ p {
 /* article */
 .article {
     padding: 20px;
-    margin: 30px 20px;
     box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
     font-size: 1.6em;
-    margin: 50px;
+    margin: 30px;
+}
+
+.article_ {
+    margin: 0;
 }
 
 .ocean {
     width: 80%;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     display: block;
     margin: 0 auto;
 }
@@ -208,14 +202,11 @@ h4 {
     margin: 5px 0;
     font-style: italic;
     color: #384862;
+    font-size: .5em;
 }
 
 .article_text {
     margin: 10px 0 ;
-    display: -webkit-box;
-    -webkit-line-clamp: 10;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 /* map */
@@ -223,25 +214,62 @@ h4 {
     max-width: 100%;
     padding: 0;
     margin: 0 auto;
-    position: relative;
+    
+}
+
+.icon {
+    max-width: 30px;
+}
+
+.contact_info {
+    padding: 20px;
+    box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+    font-size: 1.6em;
+    margin: 0 auto;
+}
+
+.map_picture {
+    max-width: 300px;
+    margin: auto;
+    display: block;
 }
 
 .contact {
-    position: absolute;
-    width: 200px;
+    width: 300px;
     /* height: 130px; */
-    left: 30px;
-    top: 100px;
-
+    /* left: 30px;
+    top: 100px; */
+/* 
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
-    /* Note: backdrop-filter has minimal browser support */
+    Note: backdrop-filter has minimal browser support */
 
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-size: .8em;
     padding: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }   
 
-.icon {
-    max-width: 50px;
+.con {
+    margin: 20px;
+}
+
+.con_1 {
+    margin: 10px 10px 30px 10px;
+}
+.number {
+    margin: 10px;
+}
+
+
+.social img {
+    width: 30px;
+}
+
+
+/* footer */
+.last_update {
+    text-align: center;
 }

@@ -39,6 +39,7 @@
 
     .article {
         width: 900px;
+        margin: auto;
     }
 
     .ocean {
@@ -49,6 +50,25 @@
         
     }
 
+    .contact_info {
+        width: 900px;
+    }
 
+    .contact {
+        font-size: 0.5em;
+    }
+
+    .con {
+        font-size: 2em;
+        padding: 0;
+    }
+
+    .map_picture {
+        max-width: 500px;
+    }
+
+    .last_update {
+        font-size: 1em;
+    }
 
 } /*end large */
