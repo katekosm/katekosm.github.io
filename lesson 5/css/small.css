@@ -129,14 +129,11 @@ footer {
 .summary {
     position: absolute;
     width: 160px;
-    /* height: 130px; */
     left: 30px;
     top: 30px;
 
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    /* Note: backdrop-filter has minimal browser support */
-
+    filter: blur(20px);
     border-radius: 5px;
 
     color: white;
@@ -208,8 +205,6 @@ p {
     display: block;
     margin: 0 auto;
 }
-
-
 
 h4 {
     margin: 5px 0;
