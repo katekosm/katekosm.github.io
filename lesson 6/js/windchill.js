@@ -13,3 +13,4 @@ if (t <= 50 && s >= 3.0) {
 } else {
     document.querySelector('.windChill').textContent = none;
 }
+
