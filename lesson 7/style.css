@@ -1,0 +1,14 @@
+img {
+    border: 1px solid #333;
+    padding: 2px;
+    filter: blur(0em);
+    transform: filter 0.5s;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
