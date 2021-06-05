@@ -31,9 +31,9 @@ images.forEach(image => {
 })
 
 
-// for current date in the footer
-const yearElement = document.querySelector("#date");
-yearElement.innerText = new Date().toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+// // for current date in the footer
+// const yearElement = document.querySelector("#date");
+// yearElement.innerText = new Date().toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
 
 // for the banner

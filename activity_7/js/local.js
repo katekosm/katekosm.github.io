@@ -27,7 +27,7 @@ let string = document.lastModified;
 let dayName = days[infoDate.getDay()];
 let monthName = months[infoDate.getMonth()];
 let year = infoDate.getFullYear();
-let fullDate = `Current Date: ${dayName}, ${infoDate.getDate()} ${monthName} ${year}.`;
+let fullDate = `${dayName}, ${infoDate.getDate()} ${monthName} ${year}.`;
 let lUpdated = `Last Update: ${string}.`;
 
 
