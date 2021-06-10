@@ -1,8 +1,41 @@
-@media only screen and (min-width: 1000px) {
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-family: "Ubuntu", sans-serif;
+}
 
-    body {
-        font-size: 2em;
-    }
+.wildwest, tbody, tr {
+    box-shadow: 9px 8px 10px 0 #628ca6;
+    margin: 20px auto;
+}
+
+.wildwest, tr, td, th {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    border-collapse: collapse;
+}
+
+th {
+    background: #628ca6;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2em;
+    background: #7fb9c2;
+}
+
+.last {
+    background: #7fb9c2;
+}
 
 
+tr:nth-child(odd) {
+    background: #e7f0ed;
+}
+tr:nth-child(even) {
+    background: #e7ffed;
 }
