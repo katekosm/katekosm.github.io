@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Weather Website</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/small.css"> 
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/big.css">
+  </head>
+
+  <body>
+    <!-- HEADER HERE -->
+
+      <header>
+             <img class="logo" src="./images/weather-ios.svg"  alt="Logo image" />
+             <div>
+                <h1>Meteomap</h1>
+                 <h2>World Weather Information Service
+              Official Forecasts</h2>
+            </div>
+      </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li ><a href="../lesson5/index.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>    
+                <li class="active"><a href="../lesson8/stormcenter.html">Storm Center</a></li>    
+                <li><a href="../activity_7/gallery-7.html">Gallery</a></li>    
+            </ul>
+        </nav>
+
+        <main>
+            
+            <p class="thanks">Thanks for submitting this storm information.  We have received your the storm information and will update our site as needed.
+            </p>  
+        </main>
+
+   
+       <!-- </footer> -->
+       <footer>
+        <div class="footer">©2021
+          | Ekaterina Kosmynina
+          <br><span id="currentdate"></span>
+            <br><span id="lastupdated"></span>
+        </div>
+      </footer>
+         
+    <script src="js/script.js"> </script>
+
+    </body>
+</html>

@@ -15,9 +15,6 @@
 
   <body>
     <!-- HEADER HERE -->
-    <div class="banner" >
-      Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-    </div>
 
       <header>
              <img class="logo" src="./images/weather-ios.svg"  alt="Logo image" />
@@ -34,169 +31,71 @@
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
                 <li><a href="#">Home</a></li>
-                <li class="active"><a href="#">Preston</a></li>
+                <li ><a href="../lesson5/index.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>    
-                <li><a href="#">Storm Center</a></li>    
+                <li class="active"><a href="../lesson8/stormcenter.html">Storm Center</a></li>    
                 <li><a href="../activity_7/gallery-7.html">Gallery</a></li>    
             </ul>
         </nav>
 
-
-
         <main>
-            <h2 class="main_city">Preston Idaho</h2>
-           <div class="contents">
-             <img src="images/weather2.jpg" alt="picture of clouds" class="picture">
-             <div class="summary">
-               <h2 class="weather_summary">Weather Summary</h2>
-               <table>
-                 <tbody>
-                   <tr class="table_1">
-                     <th class="table_1">
-                       <p>Currently:</p>
-                     </th>
-                     <td class="table_1">
-                      <p>Sunny</p>
-                     </td>
-                  </tr>
-                  <tr class="table_1">
-                    <th class="table_1">
-                      <p>High:</p>
-                    </th>
-                    <td class="table_1"> 
-                     <p>76°F</p>
-                    </td>
-                 </tr>
-                 <tr class="table_1">
-                  <th class="table_1">
-                    <p>Humidity: </p>
-                  </th>
-                  <td class="table_1">
-                   <p> 39%</p>
-                  </td>
-               </tr>
-               <tr class="table_1">
-                <th class="table_1">
-                  <p>Wind Speed:</p>
-                </th>
-                <td class="table_1">
-                 <p>12 mph</p>
-                </td>
-             </tr>
-                 </tbody>
-               </table>
+          <h3>Stormy Weather? Report it here!</h3>
+            <form method="GET" action="thanks.html">
+              <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="info"> Full Name* <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}" required></label>
+                <label class="info">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="info">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="info">Zip Code* <input type="number" name="zipcode" required ></label>
+              </fieldset>
 
-             </div>
-           </div>
+              <fieldset>
+                <legend>Storm Information</legend>
+                <label class="info">Storm date <input type="date" name="storn_date"></label>
+                <label class="info">Storm type <input list="storm_type" name="storn_type"> 
+                  <datalist id="storm_type">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                  </datalist>
+                </label>
+                <label class="info">Storm Severity <input type="range" name="storn_severity" min="1" max="10" step="1" value="5" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)" >
+                  <span id="ratingValue">5</span></label>
+                  <label id="storm">Storm Region <select name="storm_region" id="storm_region">
+                    <option selected disabled>Select Region...</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda_Springs">Soda Springs</option>
+                    <option value="Fish_Haven">Fish Haven</option> </select>
+                  </label>
+              </fieldset>
 
-           <div class="forecast">
-             <h2 class="forecast_title">
-               5 Day Forecast
-             </h2>
-
-             <table class="table_forecast">
-              <tbody>
-                <tr>
-                  <th class="day">
-                    <p class="day">wed</p>
-                  </th>
-                  <th class="day">
-                    <p class="day">Thu</p>
-                  </th>
-                  <th class="day">
-                    <p class="day">Fri</p>
-                  </th>
-                  <th class="day">
-                    <p class="day">Sat</p>
-                  </th>
-                  <th class="day">
-                    <p class="day">Sun</p>
-                  </th>
-                </tr>
-                <tr>
-                  <th>
-                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                  </th>
-                  <th>
-                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                  </th>
-                  <th>
-                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                  </th>
-                  <th>
-                    <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                  </th>
-                  <th>
-                    <img src="images/cloudy.png" alt="partly cloudy" class="broadcast">
-                  </th>
-                 
-               </tr>
-               
-                <tr>
-                  <th>
-                    <p class="temperature">77°</p>
-                  </th>
-                  <th>
-                    <p class="temperature">69°</p>
-                  </th>
-                  <th>
-                    <p class="temperature">64°</p>
-                  </th>
-                  <th>
-                    <p class="temperature">65°</p>
-                  </th>
-                  <th>
-                    <p class="temperature">59°</p>
-                  </th>
-               </tr>
-               
-              </tbody>
-             </table>
-           </div>
-
-
-           <div class="article">
-             <img src="images/bermuda.jpeg" alt="bermuda's hurricanes" class="ocean">
-             <h3 class="article_">Bermuda's hurricanes are twice as strong as they were six decades ago</h3>
-             <h4>By Harry Baker - Staff Writer 3 months ago</h4>
-             <p class="article_text">Hurricanes are blasting Bermuda with wind speeds that have more than doubled in strength over the last 66 years, due to rising ocean temperatures in the region as a result of climate change, according to a new study.</p>
-
-              <p class="article_text">Within a 62-mile (100 kilometers) radius of Bermuda, the average maximum wind speed of hurricanes increased from 35 to 73 mph (56 to 117 km/h) between 1955 and 2019, the researchers found. This is the equivalent of a 6 mph (10 km/h) increase every decade.</p>
+              <fieldset>
+                <legend>additional Information</legend>
+                <div>User in-danger level:</div>
+                <label class="user"><input type="radio" name="user_level" value="Yes"><span class="option">Yes</span></label>
+                <label class="user"><input type="radio" name="user_level" value="Maybe"><span class="option">Maybe</span></label>
+                <label class="user"><input type="radio" name="user_level" value="No"><span class="option">No</span></label>
+                <label class="textarea">Comments: <textarea name="comments" id="comments"></textarea></label>
+                <input class="submitBtn" type="submit" value="Report this storm">
               
-              <p class="article_text">During this time, sea-surface temperatures in the region also increased by up to two degrees Fahrenheit (1.1 degrees Celsius), according to the Bermuda Atlantic Time Series (BATS), a long-running dataset collected by the Bermuda Institute of Ocean Sciences... <a href="https://www.livescience.com/rising-ocean-temperatures-increasing-hurricane-strength.html">Read full article</a> </p>
-              
-           </div>
-          
-
-           <div class="contact_info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77414.14073408836!2d-111.91708692268844!3d42.10006483648407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2z0J_RgNC10YHRgtC-0L0sINCQ0LnQtNCw0YXQviA4MzI2Mywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1621455419638!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map_picture"></iframe>
-
-             <div class="contact">
-               <h2 class="con">Contact Information</h2>
-               <p class="con_1"><img src="images/location_icon.png" alt="location icon" class="icon">30 N 1st E <br> Preston, ID 83263</p>
-               <p class="number">+7(987)826-98-33 <br> meteomap.org</p>
-              
-               <div class="social">
-                <a target="_blank" href="https://www.facebook.com/katya.kosmynina/"><img src="images/icon_fb.png" alt="fb image"/></a>
-                <a target="_blank" href="https://www.pinterest.ru/katekosmynina/_saved/"><img src="images/icon_pinterest.png" alt="pinterest"/></a>
-                <a target="_blank" href="https://www.instagram.com/katekosmynina/"><img src="images/icon_insta.png" alt="instagram"/></a>
-              </div>
-             </div> 
-           </div>
+              </fieldset>
+            </form>
         </main>
 
    
        <!-- </footer> -->
-        <footer>
-          <div class="footer">©
-              <span id="date"></span>
-               | Ekaterina Kosmynina
-  
-               <p class="last_update">Last update: 05/11/2021</p>
-               
-          </div>
-      </footer>      
+       <footer>
+        <div class="footer">©2021
+          <!-- <span id="currentdate"></span> -->
+          | Ekaterina Kosmynina
+          <br><span id="currentdate"></span>
+            <br><span id="lastupdated"></span>
+        </div>
+      </footer>
+         
     <script src="js/script.js"> </script>
 
     </body>

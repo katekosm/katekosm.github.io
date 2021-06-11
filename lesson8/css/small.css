@@ -105,15 +105,6 @@ main {
 
 
 
-footer {
-   text-align: center;
-   background: #7A9DD7;
-   background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   
-    padding: 10px;
-    color: #fff;
-}
-
 
 /* content */
 .picture {
@@ -152,70 +143,9 @@ p {
     font-weight: lighter;
 }
 
-/* 5 day forecast */
 
-.forecast_title {
-    font-size: 1.2em;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-}
-.forecast {
-    text-align: center;
-}
 
-.table_forecast {
-    width: 300px;
-    margin: 0 auto;
-    border-spacing: 0;
-    border: 1px solid rgb(197, 197, 197);
-    margin-bottom: 20px;
-}
 
-.day {
-    text-align: center;
-    background: #9EB5DC;
-    color: white;
-    font-size: 1em;
-    padding: 5px;
-}
-
-.temperature {
-    font-weight: 300;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-/* article */
-.article {
-    padding: 20px;
-    box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
-    font-size: 1.6em;
-    margin: 30px;
-}
-
-.article_ {
-    margin: 0;
-}
-
-.ocean {
-    width: 80%;
-    text-align: center;
-    padding: 30px;
-    display: block;
-    margin: 0 auto;
-}
-
-h4 {
-    margin: 5px 0;
-    font-style: italic;
-    color: #384862;
-    font-size: .5em;
-}
-
-.article_text {
-    margin: 10px 0 ;
-}
 
 /* map */
 .preston {
@@ -244,15 +174,7 @@ h4 {
 
 .contact {
     width: 300px;
-    /* height: 130px; */
-    /* left: 30px;
-    top: 100px; */
-/* 
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    Note: backdrop-filter has minimal browser support */
-
-    /* border-radius: 5px; */
+   
     font-size: .8em;
     padding: 5px;
     display: block;
@@ -277,7 +199,143 @@ h4 {
 }
 
 
+h3 {
+    text-align: center;
+    font-size: 1.4em;
+}
+/* ------ form  ---------- */
+
+
+form fieldset {
+    margin: 2rem;
+    border: 1px solid #7A9DD7;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 90%;
+   box-shadow: 2px 5px 7px 0px #cfcfcf;
+  }
+
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form label.info {
+    display: block;
+    padding: 10px 0 5px 0;
+    color: #05386B;
+    font-size: .8rem;
+    margin: 0 auto;
+  }
+  
+  
+  form label.info input:required {
+    border-left: red solid 6px;
+  }
+  
+  form label.info input:required:valid {
+    border-left: rgb(108, 173, 108) solid 6px;
+  }
+  
+  form label.top input, form label.info input, form label.storm  {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgb(111, 111, 111);
+    border-radius: 4px;
+    padding: .5rem;
+    color: #05386B;
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 7px 0px #cfcfcf;
+
+  }
+  
+
+  .user {
+      display: block;
+      color: #05386B;
+      padding: 6px 0;
+  }
+  
+  
+  form label.radio {
+    display: block;
+    padding-top: 1em;
+  }
+  
+  #storm {
+    display: grid;
+    font-size: .9em;
+    color: #05386B;
+    width: 100%;
+    
+   
+    padding: 5px 0;
+
+  }
+
+  #storm_region {
+    box-shadow: 2px 5px 7px 0px #cfcfcf;
+    
+    width: 100%;
+    font-size: 1em;
+    padding: .5rem;
+    border-radius: 4px;
+    color: #05386B;
+    max-width: 20rem;
+  }
+  
+  .option {
+      margin: 0 5px;
+  }
+  
+  form input.submitBtn {
+    border: none;
+    background-color: #7A9DD7;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 20px 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    margin: 20px;
+  }
+  
+  form input.submitBtn:hover {
+      background: #05386b;
+  }
+
+  .textarea {
+      display: grid;
+      margin: 10px 0;
+      max-width: 20rem;
+  }
+
 /* footer */
 .last_update {
     text-align: center;
 }
+
+
+.footer {
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background: #7A9DD7;
+    background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+     margin-top: 30px;
+     color: #fff;
+ }
+
+ .thanks {
+     margin: 100px auto;
+     font-size: 1/5em;
+     font-family: roboto;
+     max-width: 60%;
+ }
+ 
