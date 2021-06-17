@@ -1,99 +1,103 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Weather Website</title>
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../lesson5/css/normalize.css"> 
-    <link rel="stylesheet" href="css/small.css"> 
+    <link rel="stylesheet" href="../lesson5/css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/big.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- HEADER HERE -->
     <div class="banner">
-      Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
     </div>
 
-      <header>
-             <img class="logo" src="../lesson5/images/weather-ios.svg"  alt="Logo image" />
-             <div>
-                <h1>Meteomap</h1>
-                 <h2>World Weather Information Service Official Forecasts</h2>
-            </div>
-      </header>
-        
-        
+    <header>
+        <img class="logo" src="../lesson5/images/weather-ios.svg" alt="Logo image" />
+        <div>
+            <h1>Meteomap</h1>
+            <h2>World Weather Information Service Official Forecasts</h2>
+        </div>
+    </header>
+
+
     <!-- NAVIGATION HERE -->
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="../lesson5/index.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>    
-                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>    
-                <li><a href="../activity_7/gallery-7.html">Gallery</a></li>    
-            </ul>
-        </nav>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="../lesson5/index.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../activity_7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
 
 
     <!-- MAIN -->
-        <main>
-           <div class="main_picture">
-             <img src="images/weather2.jpg" alt="weather picture" class="picture" sizes='100vw'
-             srcset="images/banner628.jpg 628w,
+    <main>
+        <div class="main_picture">
+            <img src="images/weather2.jpg" alt="weather picture" class="picture" sizes='100vw' srcset="images/banner628.jpg 628w,
                      images/banner1024.jpg 1024w,
                      images/banner1440.jpg 1440w">
-           </div>
+        </div>
 
-           <div class="cards"></div>
-           <div class="wireframes"><a href="home-wireframes.html">Wireframes</a></div>
-           
-           <div class="background">
+        <div class="cards"></div>
+
+        <div class="background">
             <div class="article">
-              <img src="images/articlePhoto.jpeg" alt="bermuda's hurricanes" class="ocean">
-             <h3 class="article_">Weather</h3>
-             <h4>RESOURCE LIBRARY | ENCYCLOPEDIC ENTRY</h4>
-             <p class="article_text">One of the first things you probably do every morning is look out the window to see what the weather is like. Looking outside and listening to the day’s forecast helps you decide what clothes you will wear and maybe even what you will do throughout the day. If you don’t have school and the weather looks sunny, you might visit the zoo or go on a picnic. A rainy day might make you think about visiting a museum or staying home to read.</p>
-              <p class="article_text">The weather affects us in many ways. Day-to-day changes in weather can influence how we feel and the way we look at the world. Severe weather, such as tornadoes, hurricanes, and blizzards, can disrupt many people’s lives because of the destruction they cause.</p>
-              <p class="article_text">The term “weather” refers to the temporary conditions of the atmosphere, the layer of air that surrounds the Earth. We usually think of weather in terms of the state of the atmosphere in our own part of the world. But weather works like dropping a pebble in water—the ripples eventually affect water far away from where the pebble was dropped. The same happens with weather around the globe. Weather in your region will eventually affect the weather hundreds or thousands of kilometers away. For example, a snowstorm around Winnipeg, Manitoba, Canada, might eventually reach Chicago, Illinois, as it moves southeast through the U.S. <a href="https://www.nationalgeographic.org/encyclopedia/weather/">Read full article</a> </p>
+                <img src="images/articlePhoto.jpeg" alt="bermuda's hurricanes" class="weather_picture">
+                <h3 class="article_">Weather</h3>
+                <h4>RESOURCE LIBRARY | ENCYCLOPEDIC ENTRY</h4>
+                <p class="article_text">One of the first things you probably do every morning is look out the window to see what the weather is like. Looking outside and listening to the day’s forecast helps you decide what clothes you will wear and maybe even what you will
+                    do throughout the day. If you don’t have school and the weather looks sunny, you might visit the zoo or go on a picnic. A rainy day might make you think about visiting a museum or staying home to read.</p>
+                <p class="article_text">The weather affects us in many ways. Day-to-day changes in weather can influence how we feel and the way we look at the world. Severe weather, such as tornadoes, hurricanes, and blizzards, can disrupt many people’s lives because of the
+                    destruction they cause.</p>
+                <p class="article_text">The term “weather” refers to the temporary conditions of the atmosphere, the layer of air that surrounds the Earth. We usually think of weather in terms of the state of the atmosphere in our own part of the world. But weather works like
+                    dropping a pebble in water—the ripples eventually affect water far away from where the pebble was dropped. The same happens with weather around the globe. Weather in your region will eventually affect the weather hundreds or thousands
+                    of kilometers away. For example, a snowstorm around Winnipeg, Manitoba, Canada, might eventually reach Chicago, Illinois, as it moves southeast through the U.S. <a href="https://www.nationalgeographic.org/encyclopedia/weather/">Read full article</a>                    </p>
             </div>
-          </div>
+        </div>
 
 
-           <div class="contact_info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77414.14073408836!2d-111.91708692268844!3d42.10006483648407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2z0J_RgNC10YHRgtC-0L0sINCQ0LnQtNCw0YXQviA4MzI2Mywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1621455419638!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map_picture"></iframe>
+        <div class="contact_info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77414.14073408836!2d-111.91708692268844!3d42.10006483648407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2z0J_RgNC10YHRgtC-0L0sINCQ0LnQtNCw0YXQviA4MzI2Mywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1621455419638!5m2!1sru!2sru"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map_picture"></iframe>
 
-             <div class="contact">
-               <h2 class="con">Contact Information</h2>
-               <p class="con_1"><img src="images/location_icon.png" alt="location icon" class="icon">30 N 1st E <br> Preston, ID 83263</p>
-               <p class="number">+7(987)826-98-33 <br> meteomap.org</p>
-              
-               <div class="social">
-                <a target="_blank" href="https://www.facebook.com/katya.kosmynina/"><img src="images/icon_fb.png" alt="fb image"/></a>
-                <a target="_blank" href="https://www.pinterest.ru/katekosmynina/_saved/"><img src="images/icon_pinterest.png" alt="pinterest"/></a>
-                <a target="_blank" href="https://www.instagram.com/katekosmynina/"><img src="images/icon_insta.png" alt="instagram"/></a>
-              </div>
-             </div> 
-           </div>
-        </main>
+            <div class="contact">
+                <h2 class="con">Contact Information</h2>
+                <p class="con_1"><img src="images/location_icon.png" alt="location icon" class="icon">30 N 1st E <br> Preston, ID 83263</p>
+                <p class="number">+7(987)826-98-33 <br> meteomap.org</p>
 
-   
-       <!-- </footer> -->
-       <footer>
-        <div class="footer">©2021 | Ekaterina Kosmynina
-          <br><span id="currentdate"></span>
+                <div class="social">
+                    <a target="_blank" href="https://www.facebook.com/katya.kosmynina/"><img src="images/icon_fb.png" alt="fb image" /></a>
+                    <a target="_blank" href="https://www.pinterest.ru/katekosmynina/_saved/"><img src="images/icon_pinterest.png" alt="pinterest" /></a>
+                    <a target="_blank" href="https://www.instagram.com/katekosmynina/"><img src="images/icon_insta.png" alt="instagram" /></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- </footer> -->
+    <footer>
+        <div class="footer">©<span id="currentyear"></span> | Ekaterina Kosmynina
+            <br><span id="currentdate"></span>
             <br><span id="lastupdated"></span>
         </div>
-      </footer>   
-    <script src="js/script.js"> </script>
+    </footer>
+    <script src="js/script.js">
+    </script>
 
-    </body>
+</body>
+
 </html>
-
