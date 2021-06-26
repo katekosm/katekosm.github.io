@@ -1,0 +1,285 @@
+body {
+    background-color: #E6E6E6;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    background: #f3ed91;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px rgb(104 104 104 / 30%);
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+header {
+    display: flex;
+    background-color: #E6E6E6;
+    color: rgb(0, 0, 0, 0.8)
+}
+
+.logo {
+    width: 50px;
+    padding: 0 20px;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #E6E6E6;
+}
+
+nav {
+    background: #7A9DD7;
+    background: linear-gradient(to bottom, rgba(103, 145, 213, 0.7) 0%, rgba(103, 145, 213, 0.7) 11%, rgba(103, 145, 213, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8rem 2%;
+    text-decoration: none;
+    color: #E6E6E6;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+nav ul li.active a {
+    background-color: #487bcd;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #3667b6;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    background-color: #E6E6E6;
+}
+
+.table_1 {
+    border: 0;
+}
+
+.main_city {
+    text-align: center;
+    font-size: 1.6em;
+    padding: 15px;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background: #7A9DD7;
+    background: linear-gradient(to bottom, rgba(103, 145, 213, 0.7) 0%, rgba(103, 145, 213, 0.7) 11%, rgba(103, 145, 213, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 10px;
+    color: #fff;
+}
+
+
+/* content */
+
+.picture {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contents {
+    position: relative;
+}
+
+.summary {
+    position: absolute;
+    width: 160px;
+    left: 30px;
+    top: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.weather_summary {
+    font-size: 1em;
+}
+
+.sum {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+
+/* 5 day forecast */
+
+#forecast_title {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.forecastdiv {
+    display: block;
+}
+
+.forecasts {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 15px;
+    width: 60%;
+}
+
+.forecasts div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inside {
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* article */
+
+.article {
+    padding: 20px;
+    box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+    font-size: 1.6em;
+    margin: 30px;
+}
+
+.article_ {
+    margin: 0;
+}
+
+.ocean {
+    width: 80%;
+    text-align: center;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+h4 {
+    margin: 5px 0;
+    font-style: italic;
+    color: #384862;
+    font-size: .5em;
+}
+
+.article_text {
+    margin: 10px 0;
+}
+
+
+/* map */
+
+.preston {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.icon {
+    max-width: 30px;
+}
+
+.contact_info {
+    padding: 20px;
+    box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+    font-size: 1.6em;
+    margin: 0 auto;
+}
+
+.map_picture {
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.contact {
+    width: 300px;
+    /* height: 130px; */
+    /* left: 30px;
+    top: 100px; */
+    /* 
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    Note: backdrop-filter has minimal browser support */
+    /* border-radius: 5px; */
+    font-size: .8em;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.con {
+    margin: 20px;
+}
+
+.con_1 {
+    margin: 10px 10px 30px 10px;
+}
+
+.number {
+    margin: 10px;
+}
+
+.social img {
+    width: 30px;
+}
+
+
+/* footer */
+
+.last_update {
+    text-align: center;
+}
