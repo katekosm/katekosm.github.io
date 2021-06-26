@@ -247,14 +247,6 @@ h4 {
 
 .contact {
     width: 300px;
-    /* height: 130px; */
-    /* left: 30px;
-    top: 100px; */
-    /* 
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    Note: backdrop-filter has minimal browser support */
-    /* border-radius: 5px; */
     font-size: .8em;
     padding: 5px;
     display: block;
