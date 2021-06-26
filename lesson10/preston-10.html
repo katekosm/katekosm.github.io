@@ -34,7 +34,7 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="../lesson5/index.html">Preston</a></li>
+            <li class="active"><a href="../lesson10/preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
@@ -48,111 +48,55 @@
         <h2 class="main_city">Preston Idaho</h2>
         <div class="contents">
             <img src="images/weather2.jpg" alt="picture of clouds" class="picture">
-            <div class="summary">
-                <h2 class="weather_summary">Weather Summary</h2>
-                <table>
-                    <tbody>
-                        <tr class="table_1">
-                            <th class="table_1">
-                                <p>Currently:</p>
-                            </th>
-                            <td class="table_1">
-                                <p>Sunny</p>
-                            </td>
-                        </tr>
-                        <tr class="table_1">
-                            <th class="table_1">
-                                <p>High:</p>
-                            </th>
-                            <td class="table_1">
-                                <p>76°F</p>
-                            </td>
-                        </tr>
-                        <tr class="table_1">
-                            <th class="table_1">
-                                <p>Humidity: </p>
-                            </th>
-                            <td class="table_1">
-                                <p> 39%</p>
-                            </td>
-                        </tr>
-                        <tr class="table_1">
-                            <th class="table_1">
-                                <p>Wind Speed:</p>
-                            </th>
-                            <td class="table_1">
-                                <p>12 mph</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
 
-            </div>
+            <section class="summary">
+                <h3 class="sum">Weather Summary</h3>
+                <p>Currently:
+                    <span id="currently"></span>
+                </p>
+                <p>Temp:
+                    <span id="temp"></span> &#176;F
+                </p>
+                <p>Wind Chill:
+                    <span id="windchill"></span>
+                </p>
+                <p>Humidity:
+                    <span id="humidity"></span> %
+                </p>
+                <p>Wind Speed:
+                    <span id="windspeed"></span> mph
+                </p>
+            </section>
         </div>
 
-        <div class="forecast">
-            <h2 class="forecast_title">
-                5 Day Forecast
-            </h2>
+        <div id="forecast_title">5 Day Forecast</div>
 
-            <table class="table_forecast">
-                <tbody>
-                    <tr>
-                        <th class="day">
-                            <p class="day">wed</p>
-                        </th>
-                        <th class="day">
-                            <p class="day">Thu</p>
-                        </th>
-                        <th class="day">
-                            <p class="day">Fri</p>
-                        </th>
-                        <th class="day">
-                            <p class="day">Sat</p>
-                        </th>
-                        <th class="day">
-                            <p class="day">Sun</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                        </th>
-                        <th>
-                            <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                        </th>
-                        <th>
-                            <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                        </th>
-                        <th>
-                            <img src="images/partly_cloudy.png" alt="partly cloudy" class="broadcast">
-                        </th>
-                        <th>
-                            <img src="images/cloudy.png" alt="partly cloudy" class="broadcast">
-                        </th>
-
-                    </tr>
-
-                    <tr>
-                        <th>
-                            <p class="temperature">77°</p>
-                        </th>
-                        <th>
-                            <p class="temperature">69°</p>
-                        </th>
-                        <th>
-                            <p class="temperature">64°</p>
-                        </th>
-                        <th>
-                            <p class="temperature">65°</p>
-                        </th>
-                        <th>
-                            <p class="temperature">59°</p>
-                        </th>
-                    </tr>
-
-                </tbody>
-            </table>
+        <div class="forecastdiv">
+            <div class="forecasts">
+                <div id="day1"></div>
+                <img src="#" alt="" id="img1">
+                <div id="temp1"></div>
+            </div>
+            <div class="forecasts">
+                <div class="inside" id="day2"></div>
+                <img class="inside" src="#" alt="" id="img2">
+                <div class="inside" id="temp2"></div>
+            </div>
+            <div class="forecasts">
+                <div id="day3"></div>
+                <img src="#" alt="" id="img3">
+                <div id="temp3"></div>
+            </div>
+            <div class="forecasts">
+                <div id="day4"></div>
+                <img src="#" alt="" id="img4">
+                <div id="temp4"></div>
+            </div>
+            <div class="forecasts">
+                <div id="day5"></div>
+                <img src="#" alt="" id="img5">
+                <div id="temp5"></div>
+            </div>
         </div>
 
 
@@ -200,8 +144,8 @@
             <a href="home-wireframes.html">Click here to see wireframes</a>
         </div>
     </footer>
-    <script src="js/script.js">
-    </script>
+
+    <script src="js/script.js"></script>
 
 </body>
 

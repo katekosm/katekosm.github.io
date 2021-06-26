@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Weather Website</title>
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css"> 
-    <link rel="stylesheet" href="css/small.css"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/big.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- HEADER HERE -->
 
-      <header>
-             <img class="logo" src="./images/weather-ios.svg"  alt="Logo image" />
-             <div>
-                <h1>Meteomap</h1>
-                 <h2>World Weather Information Service
-              Official Forecasts</h2>
-            </div>
-      </header>
-        
-        
-    <!-- NAVIGATION HERE -->
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="#">Home</a></li>
-                <li ><a href="../lesson5/index.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>    
-                <li class="active"><a href="../lesson8/stormcenter.html">Storm Center</a></li>    
-                <li><a href="../activity_7/gallery-7.html">Gallery</a></li>    
-            </ul>
-        </nav>
+    <header>
+        <img class="logo" src="./images/weather-ios.svg" alt="Logo image" />
+        <div>
+            <h1>Meteomap</h1>
+            <h2>World Weather Information Service Official Forecasts</h2>
+        </div>
+    </header>
 
-        <main>
-          <h3>Stormy Weather? Report it here!</h3>
-            <form method="GET" action="thanks.html">
-              <fieldset>
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="../lesson10/preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../activity_7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Stormy Weather? Report it here!</h3>
+        <form method="GET" action="thanks.html">
+            <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="info"> Full Name* <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}" required></label>
                 <label class="info">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="info">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="info">Zip Code* <input type="number" name="zipcode" required ></label>
-              </fieldset>
+            </fieldset>
 
-              <fieldset>
+            <fieldset>
                 <legend>Storm Information</legend>
                 <label class="info">Storm date <input type="date" name="storn_date"></label>
                 <label class="info">Storm type <input list="storm_type" name="storn_type"> 
@@ -64,15 +64,15 @@
                 </label>
                 <label class="info">Storm Severity <input type="range" name="storn_severity" min="1" max="10" step="1" value="5" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)" >
                   <span id="ratingValue">5</span></label>
-                  <label id="storm">Storm Region <select name="storm_region" id="storm_region">
+                <label id="storm">Storm Region <select name="storm_region" id="storm_region">
                     <option selected disabled>Select Region...</option>
                     <option value="Preston">Preston</option>
                     <option value="Soda_Springs">Soda Springs</option>
                     <option value="Fish_Haven">Fish Haven</option> </select>
                   </label>
-              </fieldset>
+            </fieldset>
 
-              <fieldset>
+            <fieldset>
                 <legend>additional Information</legend>
                 <div>User in-danger level:</div>
                 <label class="user"><input type="radio" name="user_level" value="Yes"><span class="option">Yes</span></label>
@@ -80,22 +80,24 @@
                 <label class="user"><input type="radio" name="user_level" value="No"><span class="option">No</span></label>
                 <label class="textarea">Comments: <textarea name="comments" id="comments"></textarea></label>
                 <input class="submitBtn" type="submit" value="Report this storm">
-              </fieldset>
-            </form>
-        </main>
+            </fieldset>
+        </form>
+    </main>
 
-   
-       <!-- </footer> -->
-       <footer>
+
+    <!-- </footer> -->
+    <footer>
         <div class="footer">©2021
-          <!-- <span id="currentdate"></span> -->
-          | Ekaterina Kosmynina
-          <br><span id="currentdate"></span>
+            <!-- <span id="currentdate"></span> -->
+            | Ekaterina Kosmynina
+            <br><span id="currentdate"></span>
             <br><span id="lastupdated"></span>
         </div>
-      </footer>
-         
-    <script src="js/script.js"> </script>
+    </footer>
 
-    </body>
+    <script src="js/script.js">
+    </script>
+
+</body>
+
 </html>

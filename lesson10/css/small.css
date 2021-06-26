@@ -29,6 +29,7 @@ header {
     width: 50px;
     padding: 0 20px;
 }
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -39,9 +40,8 @@ nav button {
 
 nav {
     background: #7A9DD7;
-    background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    
-
+    background: linear-gradient(to bottom, rgba(103, 145, 213, 0.7) 0%, rgba(103, 145, 213, 0.7) 11%, rgba(103, 145, 213, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 h1 {
@@ -49,8 +49,8 @@ h1 {
 }
 
 h2 {
- font-size: 1em;
- margin-top: 0;
+    font-size: 1em;
+    margin-top: 0;
 }
 
 nav ul {
@@ -63,12 +63,12 @@ nav ul li a {
     display: block;
     padding: 8rem 2%;
     text-decoration: none;
-    color:#E6E6E6;
+    color: #E6E6E6;
     border-top: 1px solid rgb(0, 0, 0, 0.3);
     padding: 10px;
 }
 
-nav ul li.active a{
+nav ul li.active a {
     background-color: #487bcd;
     color: #fff;
 }
@@ -89,7 +89,6 @@ nav ul.hide {
 
 main {
     background-color: #E6E6E6;
-    
 }
 
 .table_1 {
@@ -103,45 +102,46 @@ main {
     margin: 0;
 }
 
-
-
 footer {
-   text-align: center;
-   background: #7A9DD7;
-   background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   
+    text-align: center;
+    background: #7A9DD7;
+    background: linear-gradient(to bottom, rgba(103, 145, 213, 0.7) 0%, rgba(103, 145, 213, 0.7) 11%, rgba(103, 145, 213, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 10px;
     color: #fff;
 }
 
 
 /* content */
+
 .picture {
     max-width: 100%;
     padding: 0;
     margin: 0 auto;
     position: relative;
-    
 }
+
 .contents {
     position: relative;
 }
+
 .summary {
     position: absolute;
     width: 160px;
     left: 30px;
     top: 30px;
-
     background: rgba(255, 255, 255, 0.2);
-
     border-radius: 5px;
-
     color: white;
     padding: 5px;
-}   
+}
 
 .weather_summary {
- font-size: 1em;
+    font-size: 1em;
+}
+
+.sum {
+    margin: 0;
 }
 
 p {
@@ -152,41 +152,42 @@ p {
     font-weight: lighter;
 }
 
+
 /* 5 day forecast */
 
-.forecast_title {
+#forecast_title {
     font-size: 1.2em;
     text-align: center;
     padding: 20px;
     margin: 0;
 }
-.forecast {
-    text-align: center;
+
+.forecastdiv {
+    display: block;
 }
 
-.table_forecast {
-    width: 300px;
+.forecasts {
+    display: flex;
+    text-align: center;
     margin: 0 auto;
-    border-spacing: 0;
     border: 1px solid rgb(197, 197, 197);
-    margin-bottom: 20px;
+    padding: 15px;
+    width: 60%;
 }
 
-.day {
+.forecasts div {
     text-align: center;
-    background: #9EB5DC;
-    color: white;
-    font-size: 1em;
-    padding: 5px;
+    margin: 0 auto;
 }
 
-.temperature {
-    font-weight: 300;
+.inside {
     text-align: center;
-    padding-bottom: 5px;
+    justify-content: center;
 }
+
 
 /* article */
+
 .article {
     padding: 20px;
     box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
@@ -214,15 +215,16 @@ h4 {
 }
 
 .article_text {
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
+
 /* map */
+
 .preston {
     max-width: 100%;
     padding: 0;
     margin: 0 auto;
-    
 }
 
 .icon {
@@ -247,18 +249,17 @@ h4 {
     /* height: 130px; */
     /* left: 30px;
     top: 100px; */
-/* 
+    /* 
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     Note: backdrop-filter has minimal browser support */
-
     /* border-radius: 5px; */
     font-size: .8em;
     padding: 5px;
     display: block;
     margin: 0 auto;
     text-align: center;
-}   
+}
 
 .con {
     margin: 20px;
@@ -267,10 +268,10 @@ h4 {
 .con_1 {
     margin: 10px 10px 30px 10px;
 }
+
 .number {
     margin: 10px;
 }
-
 
 .social img {
     width: 30px;
@@ -278,6 +279,7 @@ h4 {
 
 
 /* footer */
+
 .last_update {
     text-align: center;
 }
