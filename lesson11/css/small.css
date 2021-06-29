@@ -102,6 +102,10 @@ main {
     margin: 0;
 }
 
+.motto {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     background: #7A9DD7;
@@ -130,7 +134,7 @@ footer {
     width: 160px;
     left: 30px;
     top: 30px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(87 120 153 / 81%);
     border-radius: 5px;
     color: white;
     padding: 5px;
@@ -217,6 +221,7 @@ h4 {
 
 .article_text {
     margin: 10px 0;
+    text-align: left;
 }
 
 
@@ -277,7 +282,11 @@ h4 {
     text-align: center;
 }
 
-.motto {
+.events {
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    margin: 20px auto;
+    padding: 20px;
     text-align: center;
 }
 

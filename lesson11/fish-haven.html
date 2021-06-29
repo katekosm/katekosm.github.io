@@ -34,9 +34,9 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="../lesson9/index.html">Home</a></li>
-            <li class="active"><a href="../lesson10/preston-10.html">Preston</a></li>
-            <li><a href="../lesson11/soda-springs.html">Soda Springs</a></li>
-            <li><a href="../lesson11/fish-haven.html">Fish Haven</a></li>
+            <li><a href="../lesson10/preston-10.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li class="active"><a href="../lesson11/fish-haven.html">Fish Haven</a></li>
             <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
             <li><a href="../activity_7/gallery-7.html">Gallery</a></li>
         </ul>
@@ -45,30 +45,32 @@
 
 
     <main>
-        <h2 class="main_city">Preston Idaho</h2>
-        <h4 class="motto">"Home of Napoleon Dynamite."</h4>
+        <h2 class="main_city">Fish Haven</h2>
+        <h4 class="motto">This is Fish Heaven.</h4>
         <div class="contents">
-            <img src="images/weather2.jpg" alt="picture of clouds" class="picture">
+            <img src="images/fish.jpg" alt="Fish Haven Idaho" class="picture">
 
             <section class="summary">
                 <h3 class="sum">Weather Summary</h3>
                 <p>Currently:
-                    <span id="currently"></span>
+                    <span class="item" id="currently"></span>
                 </p>
                 <p>Temp:
-                    <span id="temp"></span> &#176;F
+                    <span class="item" id="temp"></span> &#176;F
                 </p>
                 <p>Wind Chill:
-                    <span id="windchill"></span>
+                    <span class="item" id="windchill"></span>
                 </p>
                 <p>Humidity:
-                    <span id="humidity"></span> %
+                    <span class="item" id="humidity"></span> %
                 </p>
                 <p>Wind Speed:
-                    <span id="windspeed"></span> mph
+                    <span class="item" id="windspeed"></span> mph
                 </p>
             </section>
         </div>
+
+
 
         <div id="forecast_title">5 Day Forecast</div>
 
@@ -100,29 +102,35 @@
             </div>
         </div>
 
+        <div class="events">
+            <h2 class="upcoming_events">Upcoming Events:</h2>
+            <hr>
+            <p></p>
+        </div>
 
         <div class="article">
-            <img src="images/preston.jpeg" alt="bermuda's hurricanes" class="ocean">
-            <h3 class="article_">Preston, Idaho residents look back on 'Napoleon Dynamite'</h3>
-            <h4 class="subtitle">By Clayton Gefre Herald Journal </h4>
-            <p class="article_text">Twelve years ago, Preston was a town like any other, a relatively quiet part of southern Idaho with a population of just under 5,000 people. Known for That Famous Preston Night Rodeo and its close proximity to the site of the Bear River Massacre,
-                most of the United States would likely have been unable to locate it on a map.</p>
-            <p class="article_text">Things would change for the small Franklin County town with the release of "Napoleon Dynamite" in 2004. The quotable comedy film written and directed by Preston native Jared Hess became a surprise hit, earning $46.1 million at the box office
-                on a budget of only $400,000. As the site of the film, Preston gained a foothold in pop culture, the Herald Journal reported.</p>
+            <img src="images/fish_h.jpeg" alt="Fish Haven" class="ocean">
+            <h3 class="article_">Little Fish Haven, Idaho, is paradise for residents</h3>
+            <h4 class="subtitle">
+                By Deseret News Dec 26, 2000, 3:35pm MST</h4>
+            <p class="article_text">FISH HAVEN, Idaho — It's an undiscovered paradise. Most people who drive by recognize the raw beauty of a place ringed by high desert mountains and bordered by the shores of a vast natural lake.</p>
 
-            <p class="article_text">"Some people worry that the movie gives us a bad name," Preston resident Rhonda Gregerson said. "But really, it gives us a great name. The movie put us right on the map; it's our golden goose."<a href="https://archive.sltrib.com/article.php?id=4022003&itype=CMSID">Read full article</a>                </p>
+            <p class="article_text">In winter the hills outside this small paradise echo with the sharp whine of snow machines and in the summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.</p>
+            <p class="article_text">But they don't live there. It's different living in Fish Haven. The little town sits just on the Idaho side of U.S. Highway 89 tucked in between Bear Lake's west side and the mountains. It's not technically a city or a town, it's really nothing
+                more than the proverbial wide spot in the road. But people call it a town even though there isn't a city council, just the Bear Lake County Commission that oversees development there.</p>
+
+            <p class="article_text"> <a href="https://www.deseret.com/2000/12/26/19546274/little-fish-haven-idaho-is-paradise-for-residents">Read full article</a> </p>
 
         </div>
 
 
         <div class="contact_info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77414.14073408836!2d-111.91708692268844!3d42.10006483648407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2z0J_RgNC10YHRgtC-0L0sINCQ0LnQtNCw0YXQviA4MzI2Mywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1621455419638!5m2!1sru!2sru"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108569.86612547695!2d-111.37247426044279!3d41.99434509401502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2z0KTQuNGIINCl0LXQudCy0LXQvSwg0JDQudC00LDRhdC-IDgzMjg3LCDQodCo0JA!5e0!3m2!1sru!2sru!4v1624968156838!5m2!1sru!2sru"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map_picture"></iframe>
-
             <div class="contact">
                 <h2 class="con">Contact Information</h2>
-                <p class="con_1"><img src="images/location_icon.png" alt="location icon" class="icon">30 N 1st E <br> Preston, ID 83263</p>
-                <p class="number">+7(987)826-98-33 <br> meteomap@.gmail</p>
+                <p class="con_1"><img src="images/location_icon.png" alt="location icon" class="icon">30 N 1st E <br> Fish Haven, ID 83287</p>
+                <p class="number">+7(987)826-98-43 <br> meteomap@.gmail</p>
 
                 <div class="social">
                     <a target="_blank" href="https://www.facebook.com/katya.kosmynina/"><img src="images/icon_fb.png" alt="fb image" /></a>
@@ -140,12 +148,10 @@
             <br><span id="currentdate"></span>
             <br><span id="lastupdated"></span>
         </div>
-        <div>
-            <a href="home-wireframes.html">Click here to see wireframes</a>
-        </div>
+
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/fish_haven.js"></script>
 
 </body>
 

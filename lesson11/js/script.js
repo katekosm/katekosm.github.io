@@ -53,7 +53,7 @@ document.querySelector("#currentyear").textContent = year;
 
 
 // for the current weather summary
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f";
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -61,7 +61,6 @@ fetch(apiURL)
         let description = town.weather[0].description;
         document.getElementById('currently').innerHTML = description.charAt(0).toUpperCase() + description.slice(1);
         document.getElementById('temp').innerHTML = Math.round(town.main.temp);
-        document.getElementById('windchill').innerHTML = Math.round(town.main.temp);
         document.getElementById('humidity').innerHTML = town.main.humidity;
         document.getElementById('windspeed').innerHTML = Math.round(town.wind.speed);
     });
@@ -81,9 +80,10 @@ document.querySelector('#windchill').textContent = windchills;
 
 
 
+
 // 5 day forecast
 
-const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f"
+const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=0dcb04ddb341c8d129b99e8b866b705f"
 
 fetch(apiURL_forecast)
     .then(response => response.json())
@@ -111,7 +111,7 @@ fetch(URL_events)
     .then(function(jsonObject) {
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == 'preston') {
+            if (towns[i].name == 'Soda Springs') {
                 let events = towns[i].events;
                 for (let i = 0; i < events.length; i++) {
                     let event = document.createElement('p');

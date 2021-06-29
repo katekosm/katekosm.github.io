@@ -1,4 +1,3 @@
-
 // for the menu
 function toggleMenu() {
     // console.log(document.getElementById("primaryNav").class);

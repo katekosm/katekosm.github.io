@@ -2,7 +2,7 @@ const images = document.querySelectorAll("[data-src]");
 
 function preLoadImage(img) {
     const src = img.getAttribute("data-src");
-    if(!src) {
+    if (!src) {
         return;
     }
 
@@ -31,9 +31,7 @@ images.forEach(image => {
 })
 
 
-// // for current date in the footer
-// const yearElement = document.querySelector("#date");
-// yearElement.innerText = new Date().toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
 
 
 // for the banner
@@ -50,3 +48,43 @@ function toggleMenu() {
     // console.log(document.getElementById("primaryNav").class);
     document.getElementById("primaryNav").classList.toggle("hide");
 }
+
+
+// for current date in the footer
+
+let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+let infoDate = new Date();
+let string = document.lastModified;
+let dayName = days[infoDate.getDay()];
+let monthName = months[infoDate.getMonth()];
+let year = infoDate.getFullYear();
+let fullDate = `${dayName}, ${infoDate.getDate()} ${monthName} ${year}.`;
+let lUpdated = `Last Update: ${string}.`;
+
+
+
+document.querySelector("#currentdate").textContent = fullDate;
+document.querySelector("#lastupdated").textContent = lUpdated;
+document.querySelector("#currentyear").textContent = year;
