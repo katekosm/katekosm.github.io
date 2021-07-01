@@ -62,12 +62,12 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: #487bcd;
+    background-color: #04327b;
     color: #fff;
 }
 
 nav ul li a:hover {
-    background-color: #3667b6;
+    background-color: #04327b;
 }
 
 nav ul.hide {
@@ -255,6 +255,7 @@ footer {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 10px;
     color: #fff;
+    line-height: 1.5em;
 }
 
 .cards {
@@ -278,6 +279,10 @@ footer {
     margin: 10px 0;
 }
 
+header a {
+    display: flex;
+}
+
 .cards h2 {
     font-size: 1em;
     margin: 10px 0 5px 0;
@@ -297,4 +302,5 @@ footer {
 
 .cards p {
     font-size: .7em;
+    line-height: 1.5em;
 }

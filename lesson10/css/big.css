@@ -26,7 +26,7 @@
         font-size: 2.1em;
     }
     p {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     .article {
         width: 900px;
@@ -53,6 +53,10 @@
     }
     .last_update {
         font-size: 1em;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin-top: 0;
     }
 }
 

@@ -111,7 +111,7 @@ fetch(URL_events)
     .then(function(jsonObject) {
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == 'preston') {
+            if (towns[i].name == 'Preston') {
                 let events = towns[i].events;
                 for (let i = 0; i < events.length; i++) {
                     let event = document.createElement('p');

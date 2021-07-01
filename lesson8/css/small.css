@@ -29,6 +29,7 @@ header {
     width: 50px;
     padding: 0 20px;
 }
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -39,9 +40,8 @@ nav button {
 
 nav {
     background: #7A9DD7;
-    background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    
-
+    background: linear-gradient(to bottom, rgba(103, 145, 213, 0.7) 0%, rgba(103, 145, 213, 0.7) 11%, rgba(103, 145, 213, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 h1 {
@@ -49,8 +49,8 @@ h1 {
 }
 
 h2 {
- font-size: 1em;
- margin-top: 0;
+    font-size: 1em;
+    margin-top: 0;
 }
 
 nav ul {
@@ -63,18 +63,18 @@ nav ul li a {
     display: block;
     padding: 8rem 2%;
     text-decoration: none;
-    color:#E6E6E6;
+    color: #E6E6E6;
     border-top: 1px solid rgb(0, 0, 0, 0.3);
     padding: 10px;
 }
 
-nav ul li.active a{
-    background-color: #487bcd;
+nav ul li.active a {
+    background-color: #04327b;
     color: #fff;
 }
 
 nav ul li a:hover {
-    background-color: #3667b6;
+    background-color: #04327b;
 }
 
 nav ul.hide {
@@ -89,7 +89,6 @@ nav ul.hide {
 
 main {
     background-color: #E6E6E6;
-    
 }
 
 .table_1 {
@@ -104,35 +103,32 @@ main {
 }
 
 
-
-
 /* content */
+
 .picture {
     max-width: 100%;
     padding: 0;
     margin: 0 auto;
     position: relative;
-    
 }
+
 .contents {
     position: relative;
 }
+
 .summary {
     position: absolute;
     width: 160px;
     left: 30px;
     top: 30px;
-
     background: rgba(255, 255, 255, 0.2);
-
     border-radius: 5px;
-
     color: white;
     padding: 5px;
-}   
+}
 
 .weather_summary {
- font-size: 1em;
+    font-size: 1em;
 }
 
 p {
@@ -144,15 +140,16 @@ p {
 }
 
 
-
-
-
 /* map */
+
 .preston {
     max-width: 100%;
     padding: 0;
     margin: 0 auto;
-    
+}
+
+header a {
+    display: flex;
 }
 
 .icon {
@@ -174,13 +171,12 @@ p {
 
 .contact {
     width: 300px;
-   
     font-size: .8em;
     padding: 5px;
     display: block;
     margin: 0 auto;
     text-align: center;
-}   
+}
 
 .con {
     margin: 20px;
@@ -189,22 +185,22 @@ p {
 .con_1 {
     margin: 10px 10px 30px 10px;
 }
+
 .number {
     margin: 10px;
 }
-
 
 .social img {
     width: 30px;
 }
 
-
 h3 {
     text-align: center;
     font-size: 1.4em;
 }
-/* ------ form  ---------- */
 
+
+/* ------ form  ---------- */
 
 form fieldset {
     margin: 2rem;
@@ -212,8 +208,8 @@ form fieldset {
     border-radius: 10px;
     padding: 15px;
     max-width: 90%;
-   box-shadow: 2px 5px 7px 0px #cfcfcf;
-  }
+    box-shadow: 2px 5px 7px 0px #cfcfcf;
+}
 
 form legend {
     color: black;
@@ -221,25 +217,27 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form label.info {
+form label.top,
+form label.info {
     display: block;
     padding: 10px 0 5px 0;
     color: #05386B;
     font-size: .8rem;
     margin: 0 auto;
-  }
-  
-  
-  form label.info input:required {
+}
+
+form label.info input:required {
     border-left: red solid 6px;
-  }
-  
-  form label.info input:required:valid {
+}
+
+form label.info input:required:valid {
     border-left: rgb(108, 173, 108) solid 6px;
-  }
-  
-  form label.top input, form label.info input, form label.storm  {
-      -webkit-appearance: caret;
+}
+
+form label.top input,
+form label.info input,
+form label.storm {
+    -webkit-appearance: caret;
     display: block;
     font-size: 1rem;
     border: solid 1px rgb(111, 111, 111);
@@ -247,52 +245,45 @@ form label.top, form label.info {
     padding: .5rem;
     color: #05386B;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     background-color: #ffffff;
     box-shadow: 2px 5px 7px 0px #cfcfcf;
+}
 
-  }
-  
+.user {
+    display: block;
+    color: #05386B;
+    padding: 6px 0;
+}
 
-  .user {
-      display: block;
-      color: #05386B;
-      padding: 6px 0;
-  }
-  
-  
-  form label.radio {
+form label.radio {
     display: block;
     padding-top: 1em;
-  }
-  
-  #storm {
+}
+
+#storm {
     display: grid;
     font-size: .9em;
     color: #05386B;
     width: 100%;
-    
-   
     padding: 5px 0;
+}
 
-  }
-
-  #storm_region {
+#storm_region {
     box-shadow: 2px 5px 7px 0px #cfcfcf;
-    
     width: 100%;
     font-size: 1em;
     padding: .5rem;
     border-radius: 4px;
     color: #05386B;
-    max-width: 20rem;
-  }
-  
-  .option {
-      margin: 0 5px;
-  }
-  
-  form input.submitBtn {
+    max-width: 250px;
+}
+
+.option {
+    margin: 0 5px;
+}
+
+form input.submitBtn {
     border: none;
     background-color: #7A9DD7;
     color: white;
@@ -300,25 +291,26 @@ form label.top, form label.info {
     border-radius: 1rem;
     padding: 20px 1.5rem;
     width: 96%;
-    max-width: 20rem;
+    max-width: 250px;
     margin: 15px 0;
-  }
-  
-  form input.submitBtn:hover {
-      background: #05386b;
-  }
+}
 
-  .textarea {
-      display: grid;
-      margin: 10px 0;
-      max-width: 20rem;
-  }
+form input.submitBtn:hover {
+    background: #05386b;
+}
+
+.textarea {
+    display: grid;
+    margin: 10px 0;
+    max-width: 250px;
+}
+
 
 /* footer */
+
 .last_update {
     text-align: center;
 }
-
 
 .footer {
     padding: 20px 0;
@@ -327,16 +319,16 @@ form label.top, form label.info {
 footer {
     text-align: center;
     background: #7A9DD7;
-    background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    
-     margin-top: 30px;
-     color: #fff;
- }
+    background: linear-gradient(to bottom, rgba(103, 145, 213, 0.7) 0%, rgba(103, 145, 213, 0.7) 11%, rgba(103, 145, 213, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1.5em;
+}
 
- .thanks {
-     margin: 100px auto;
-     font-size: 1.5em;
-     font-family: roboto;
-     max-width: 60%;
- }
- 
+.thanks {
+    margin: 100px auto;
+    font-size: 1.5em;
+    font-family: roboto;
+    max-width: 60%;
+}
