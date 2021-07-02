@@ -61,7 +61,7 @@ fetch(apiURL)
         let description = town.weather[0].description;
         document.getElementById('currently').innerHTML = description.charAt(0).toUpperCase() + description.slice(1);
         document.getElementById('temp').innerHTML = Math.round(town.main.temp);
-        document.getElementById('windchill').innerHTML = Math.round(town.main.temp);
+
         document.getElementById('humidity').innerHTML = town.main.humidity;
         document.getElementById('windspeed').innerHTML = Math.round(town.wind.speed);
     });
