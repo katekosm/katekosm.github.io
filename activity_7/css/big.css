@@ -1,24 +1,23 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 1025px) {
 
+@media only screen and (min-width: 1025px) {
     nav ul li a {
         padding: .6rem 1rem;
     }
-    
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
     main {
         max-width: 1440px;
-      
     }
-
-
     p {
         font-size: 1.8em;
     }
-
-
     .picture {
         width: 30%;
     }
+}
 
 
-} /*end large */
+/*end large */
