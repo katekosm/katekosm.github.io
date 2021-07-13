@@ -81,6 +81,11 @@ nav ul.hide {
 
 /* HERO HERE */
 
+.hero_part {
+    background: url(../../images/hero375.jpg) no-repeat center / cover;
+    height: 171px;
+}
+
 .hero_title {
     text-align: center;
     font-family: "Legacy Sans ITC Pro", sans-serif;
@@ -116,7 +121,7 @@ nav ul.hide {
 /* WEATHER */
 
 .local_weather {
-    background: url("../../images/weather.jpg") no-repeat center;
+    background: url("../../images/weather.jpg") no-repeat center / cover;
     padding: 20px 0 6px 0;
 }
 
@@ -127,13 +132,11 @@ nav ul.hide {
     margin: 14px 23px 9px 24px;
 }
 
-.item {
-    margin: 2px 0;
-}
-
 .sum {
     margin-top: 0;
-    ;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
@@ -163,6 +166,12 @@ nav ul.hide {
 .forecast {
     background: #003561;
     color: white;
+    padding-bottom: 20px;
+}
+
+.forecasts {
+    padding: 20px;
+    text-align: center;
 }
 
 #forecast_title {
@@ -178,6 +187,8 @@ nav ul.hide {
 .forecastdiv {
     border: 1px solid white;
     margin: 10px 26px 26px 26px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .join_button {

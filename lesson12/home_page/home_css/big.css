@@ -1,1 +1,5 @@
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .hero_part {
+        background: url(../../images/hero1440.jpg) no-repeat center;
+    }
+}

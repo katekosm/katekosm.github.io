@@ -1,12 +1,15 @@
-[{
-        "id": 498817,
-        "name": "Saint Petersburg",
-        "state": "",
-        "country": "RU",
-        "coord": {
-            "lon": 30.264168,
-            "lat": 59.894444
-        }
-    }
+{
 
-]
+    "towns": [{
+            "name": "Saint Petersburg",
+            "yearFounded": 1703,
+            "currentPopulation": 4991000,
+            "events": [
+                "July 13-22, 2021, the International Summer School on Experimental Methods and Modeling in Social and Cognitive Sciences will be held at the Laboratory of Social and Cognitive Informatics. https://scila.hse.ru/announcements/450908751.html",
+                "August 29, 2021,  MOZART. REQUIEM at the Evangelical Luthran Church of Saint Anna | St. Petersburg, st. Kirochnaya 8V",
+                "the end of May – October 2021 | Ceremony of changing of the guard | Naryshkin Bastion at the Peter and Paul Fortress"
+            ]
+        }
+
+    ]
+}
