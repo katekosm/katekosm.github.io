@@ -34,7 +34,6 @@ fetch(apiURL_forecast)
             document.getElementById('img' + (day + 1)).alt = forecast.weather[0].description
             document.getElementById('day' + (day + 1)).textContent = weekdays[x.getDay()];
             if (day == 2) return true;
-
             day++;
         });
     });
@@ -55,6 +54,7 @@ fetch(URL_events)
                     let event = document.createElement('p');
                     event.innerHTML = events[i];
                     document.querySelector('.events').appendChild(event);
+                    // text.setAttribute('class', 'events_p');
                 }
             }
         }
