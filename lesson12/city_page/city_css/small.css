@@ -1,0 +1,178 @@
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: "Avenir";
+        color: #003561;
+    }
+    /* HEADER HERE */
+    
+    .logo {
+        padding: 22px 0 26px 0;
+    }
+    
+    .header {
+        display: flex;
+        margin: 10px 35px 0;
+    }
+    
+    .header_part {
+        padding-top: 32px;
+    }
+    
+    .header_text {
+        margin: 0;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+        font-size: 1em;
+        font-family: "Legacy Sans ITC Pro", sans-serif;
+        font-weight: 400;
+    }
+    /* NAVIGATION HERE  */
+    
+    nav {
+        border: 1px solid #003561;
+    }
+    
+    li {
+        color: #003561;
+        list-style-type: none;
+        font-family: "Legacy Sans ITC Pro", sa;
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav button {
+        /* margin: .2rem 2%; */
+        background-color: transparent;
+        border: none;
+        font-size: 2em;
+        color: #003561;
+        padding: 10px 44px;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: #003561;
+        border-top: 1px solid #003561;
+        padding: 15px 44px;
+    }
+    
+    nav ul li a:hover {
+        background-color: #003561;
+        color: white;
+    }
+    
+    .active {
+        background-color: #FF9241;
+    }
+    
+    nav ul.hide {
+        display: none;
+    }
+    /* INFORMATION SECTION */
+    
+    .history {
+        text-align: center;
+        font-family: "Legacy Sans ITC Pro", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 30px auto;
+    }
+    
+    .text {
+        padding: 0 23px 17px 24px;
+        margin: 0 auto;
+    }
+    
+    .block_2 {
+        padding: 0 23px 17px 24px;
+    }
+    
+    .city_pic1,
+    .city_pic2 {
+        width: 326px;
+    }
+    
+    .city_pic2 {
+        padding: 0 23px 17px 24px;
+    }
+    
+    .text_2 {
+        margin-top: 0;
+        padding: 0 23px 17px 24px;
+    }
+    /* PHOTO GALLERY */
+    
+    .gallery {
+        text-align: center;
+        font-family: "Legacy Sans ITC Pro", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 30px auto;
+    }
+    
+    .container {
+        display: block;
+        margin-bottom: 60px;
+    }
+    
+    .picture {
+        width: 80%;
+        padding: 10px;
+        box-shadow: 0 10px 12px 0 rgb(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    figcaption {
+        padding: 10px 0;
+    }
+    /* FOOTER  */
+    
+    footer {
+        width: 100%;
+        background: #013662;
+        color: white;
+    }
+    
+    .contact {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "Legacy Sans ITC Pro", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 30px;
+        margin: 0;
+    }
+    
+    .address {
+        margin: 0;
+        padding: 7px 0 0 48px;
+        font-size: 12px;
+    }
+    
+    .phone {
+        display: flex;
+        padding: 14px 0 0 48px;
+    }
+    
+    .mail {
+        display: flex;
+        padding-left: 48px;
+    }
+    
+    .phone_number {
+        margin: 6px 0 0 2px;
+    }
+    /* .phone_icon {} */
+    
+    .socials {
+        padding: 10px 0 20px 48px;
+    }

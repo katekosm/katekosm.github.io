@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <title>Chamber of Commerce Home Page</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="home_css/small.css">
+    <link rel="stylesheet" href="home_css/medium.css">
+    <link rel="stylesheet" href="home_css/big.css">
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+        <div class="header">
+            <a href="home.html">
+                <img src="../images/logo.jpg" alt="logo image" class="logo">
+            </a>
+            <div class="header_part">
+                <p class="header_text">CHAMBER OF COMMERCE</p>
+                <p class="header_text">in Russia, Saint-Petersburg</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="../city_page/city.html">St Petersburg</a></li>
+            <li><a href="../join_page/join.html">Join</a></li>
+            <li><a href="../directory_page/directory.html">Directory</a></li>
+            <li><a href="../contact_page/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- HERO HERE -->
+        <div class="hero_part">
+            <img src="../images/hero375.jpg" alt="hero image" class="hero_image" sizes="100vw" srcset="../images/hero375.jpg 375w,
+        ../images/hero1023.jpg 1023w,
+        ../images/hero1440.jpg 1440w">
+
+            <div class="hero_text">
+                <h1 class="hero_title">Chamber Today</h1>
+                <p class="hero_p">Our mission is to contibute to Russian economy by creation of comfortable conditions for the development of all kinds of business activity.</p>
+            </div>
+        </div>
+
+
+        <div class="about_us">
+            <h2 class="about_us_h2">About us</h2>
+            <p class="about_us_p">The Saint Petersburg Chamber of Commerce and Industry is a local organization of businesses and companies in Saint-Petersburg with the intention to develop and further the interests of local companies and businesses in Russia. Many businesses
+                are international operating companies with offices in Russia.</p>
+            <p class="about_us_p">Members of a Chamber of Commerce are usually international and local operating companies, such as lawyers, property developers, tourism companies, airlines, manufacturing companies, import and export businesses, banks, finance companies, legal
+                advisors, IT and electronics manufacturers etc.</p>
+            <p class="about_us_p">Chambers of Commerce main activities are, among others, safeguarding business interests and sharing business experiences and business interests, contact with governments, civil society, local media and the press and organzing trade shows and
+                events.
+            </p>
+        </div>
+
+
+        <div class="local_weather">
+            <!-- <img src="../images/weather.jpg" alt="background-image"> -->
+            <!-- make responsive -->
+
+            <section class="summary">
+                <h3 class="sum">Local Weather Conditions</h3>
+                <p class="item">Currently:
+                    <span id="currently"></span>
+                </p>
+                <p class="item"> Temp:
+                    <span id="temp"></span>&#176;C
+                </p>
+                <p class="item">Humidity:
+                    <span id="humidity"></span> %
+                </p>
+            </section>
+        </div>
+
+
+        <div class="forecast">
+            <div id="forecast_title">3 Day Forecast</div>
+            <div class="forecastdiv">
+                <div class="forecasts">
+                    <div id="day1"></div>
+                    <img src="#" alt="forecast" id="img1">
+                    <div id="temp1"></div>
+                </div>
+                <div class="forecasts">
+                    <div class="inside" id="day2"></div>
+                    <img class="inside" src="#" alt="forecast" id="img2">
+                    <div class="inside" id="temp2"></div>
+                </div>
+                <div class="forecasts">
+                    <div id="day3"></div>
+                    <img src="#" alt="forecast" id="img3">
+                    <div id="temp3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="events">
+            <h2 class="upcoming_events">Upcoming Events:</h2>
+            <hr>
+            <p></p>
+        </div>
+
+        <div class="company">
+            <h2 class="local_companies">Local Companies</h2>
+            <div class="local_images">
+                <a href="https://www.alstom.com/"><img src="../images/alstom.jpg" alt="alstom company" class="local"></a>
+                <a href="https://spb-tr.gazprom.ru/"><img src="../images/gasprom.jpg" alt="gasprom company" class="local"></a>
+                <a href="https://jetport.ru/"><img src="../images/airplane.jpg" alt="Airplane company" class="local" s></a>
+            </div>
+        </div>
+
+        <a href="../join_page/join.html"><button class="join_button">Join the Chamber</button></a>
+
+        <footer>
+            <h3 class="contact">Contact information</h3>
+            <p class="address">Address:<br> Saint Petersburg Chamber of Commerce and Industry<br> 46-48 Chaikovskogo street<br> 191123 Saint-Petersbur</p>
+
+            <div class="phone">
+                <img src="../images/phone_icon.svg" alt="phone icon" class="phone_icon">
+                <p class="phone_number">+7 812 719 66 44</p>
+            </div>
+
+            <div class="mail">
+                <img src="../images/mail_icon.svg" alt="mail icon" class="phone_icon">
+                <p class="phone_number">spbcci@spbcci.ru</p>
+            </div>
+
+            <div class="socials">
+                <a target="_blank" href="https://www.youtube.com/"><img src="../images/youtube.svg" alt="youtube icon" class="socials_icon"></a>
+                <a target="_blank" href="https://https://www.instagram.com/?hl=ru"><img src="../images/instagram.svg" alt="instagram icon" class="socials_icon"></a>
+                <a target="_blank" href="https://www.facebook.com/katya.kosmynina/"><img src="../images/fb.svg" alt="facebook icon" class="socials_icon"></a>
+            </div>
+
+        </footer>
+    </main>
+
+    <script src="home.js"></script>
+</body>
+
+</html>

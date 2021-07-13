@@ -1,0 +1,244 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Avenir";
+    color: #003561;
+}
+
+
+/* HEADER HERE */
+
+.logo {
+    padding: 22px 0 26px 0;
+}
+
+.header {
+    display: flex;
+    margin: 10px 35px 0;
+}
+
+.header_part {
+    padding-top: 32px;
+}
+
+.header_text {
+    margin: 0;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    font-size: 1em;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-weight: 400;
+}
+
+
+/* NAVIGATION HERE  */
+
+nav {
+    border: 1px solid #003561;
+}
+
+li {
+    color: #003561;
+    list-style-type: none;
+    font-family: "Legacy Sans ITC Pro", sa;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    /* margin: .2rem 2%; */
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    color: #003561;
+    padding: 10px 44px;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #003561;
+    border-top: 1px solid #003561;
+    padding: 15px 44px;
+}
+
+nav ul li a:hover {
+    background-color: #003561;
+    color: white;
+}
+
+.active {
+    background-color: #FF9241;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/* HERO HERE */
+
+.hero_title {
+    text-align: center;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 36px 0 6px 0;
+    color: #003561;
+}
+
+.hero_p {
+    padding: 0 46px 41px 50px;
+    margin: 0;
+    color: #003561;
+}
+
+.about_us_h2 {
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    color: #003561;
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.about_us_p {
+    padding: 0 46px 41px 50px;
+    margin: 0;
+    color: #003561;
+}
+
+
+/* WEATHER */
+
+.local_weather {
+    background: url("../../images/weather.jpg") no-repeat center;
+    padding: 20px 0 6px 0;
+}
+
+.summary {
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    margin: 14px 23px 9px 24px;
+}
+
+.item {
+    margin: 2px 0;
+}
+
+.sum {
+    margin-top: 0;
+    ;
+}
+
+
+/* LOCAL COMPANIES IMAGES */
+
+.local_companies {
+    text-align: center;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px auto;
+}
+
+.local {
+    width: 281px;
+    margin: 0 auto;
+    padding-bottom: 28px;
+}
+
+.local_images a {
+    display: flex;
+}
+
+
+/* 3 DAY FORECAST  */
+
+.forecast {
+    background: #003561;
+    color: white;
+}
+
+#forecast_title {
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 400;
+    background: #003561;
+    text-align: center;
+    padding: 32px 10px 0;
+}
+
+.forecastdiv {
+    border: 1px solid white;
+    margin: 10px 26px 26px 26px;
+}
+
+.join_button {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    width: 281px;
+    color: #003561;
+    border: 1px solid #003561;
+    justify-content: center;
+    padding: 22px 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 54px;
+}
+
+
+/* FOOTER  */
+
+footer {
+    background: #013662;
+    color: white;
+}
+
+.contact {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px;
+    margin: 0;
+}
+
+.address {
+    margin: 0;
+    padding: 7px 0 0 48px;
+    font-size: 12px;
+}
+
+.phone {
+    display: flex;
+    padding: 14px 0 0 48px;
+}
+
+.mail {
+    display: flex;
+    padding-left: 48px;
+}
+
+.phone_number {
+    margin: 6px 0 0 2px;
+}
+
+
+/* .phone_icon {} */
+
+.socials {
+    padding: 10px 0 20px 48px;
+}
