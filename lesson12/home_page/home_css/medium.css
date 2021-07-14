@@ -1,4 +1,4 @@
-@media only screen and (min-width: 629px) {
+@media only screen and (min-width: 710px) {
     .header {
         margin: 10px 150px 10px;
     }
@@ -33,7 +33,6 @@
         background: url(../../images/hero1023.jpg) no-repeat center;
     }
     footer {
-        max-width: 628px;
         margin: 0 auto;
     }
     /* HERO */
@@ -59,7 +58,6 @@
     }
     /* ABOUT US */
     .about_us_h2 {
-        font-family: "Legacy Sans ITC Pro", sans-serif;
         color: #003561;
         margin: 0 0 15px 0;
         font-size: 30px;
@@ -101,5 +99,57 @@
     }
     .forecastdiv {
         padding: 30px;
+    }
+    /* EVENTS */
+    .events {
+        width: 600px;
+        margin: 50px auto;
+        padding: 50px;
+    }
+    /* LOCAL COMPANIES */
+    .local_images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .block {
+        display: block;
+    }
+    #loc1 {
+        width: 377px;
+        padding-right: 20px;
+    }
+    #loc2 {
+        width: 303px;
+        height: 310px;
+    }
+    #loc3 {
+        width: 303px;
+        height: 310px;
+    }
+    .join_button {
+        width: 700px;
+    }
+    /* FOOTER */
+    footer {
+        max-width: 1023px;
+    }
+    .address {
+        padding: 7px 0 0 150px;
+        font-size: 14px;
+    }
+    .phone {
+        padding: 14px 0 0 150px;
+    }
+    .mail {
+        padding-left: 150px;
+    }
+    .socials {
+        padding: 14px 0 20px 150px;
+    }
+    .footer {
+        font-size: 14px;
+        padding: 0 0 48px 150px;
     }
 }

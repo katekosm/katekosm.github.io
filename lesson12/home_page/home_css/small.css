@@ -209,10 +209,16 @@ nav ul.hide {
     margin-bottom: 54px;
 }
 
+.join_button:hover {
+    background-color: #003561;
+    color: white;
+}
+
 
 /* EVENTS   */
 
 .events {
+    padding: 20px;
     margin: 29px 24px 59px 24px;
     border: 1px solid #003561;
 }
@@ -223,11 +229,6 @@ nav ul.hide {
     font-weight: 400;
     text-align: center;
 }
-
-
-/* .events_p {
-    padding: 10px;
-} */
 
 
 /* FOOTER  */
@@ -267,9 +268,11 @@ footer {
     margin: 6px 0 0 2px;
 }
 
-
-/* .phone_icon {} */
-
 .socials {
     padding: 10px 0 20px 48px;
+}
+
+.footer {
+    font-size: 12px;
+    padding: 0 0 48px 48px;
 }

@@ -1,18 +1,86 @@
 @media only screen and (min-width: 1025px) {
-    nav ul li a {
-        padding: .6rem 1rem;
-    }
     body {
         max-width: 1440px;
         margin: 0 auto;
     }
-    main {
-        max-width: 1440px;
+    .header {
+        padding-left: 185px;
+        margin-left: 0;
     }
-    p {
-        font-size: 1.8em;
+    .hero_part {
+        background: url(../../images/city.1440.jpg) no-repeat center;
+        height: 400px;
+    }
+    .hero_title {
+        font-size: 55px;
+        width: 437px;
+        margin-top: 70px;
+    }
+    .hero_p {
+        font-size: 24px;
+        width: 437px;
+    }
+    .hero_text {
+        left: 185px;
+    }
+    /* HISTORY INFORMATION */
+    .history {
+        font-size: 48px;
+        padding: 79px 0 57px 185px;
+        text-align: left;
+        margin: 0;
+    }
+    .text {
+        font-size: 22px;
+        margin: 0 95px 40px 185px;
+    }
+    .text_1 {
+        width: 800px;
+        font-size: 22px;
+    }
+    .block_2 {
+        display: flex;
+        padding: 0;
+        margin: 0 185px;
+    }
+    .text_2 {
+        font-size: 22px;
+    }
+    .block_3 {
+        margin: 0 95px 40px 185px;
+    }
+    .gallery {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    .container {
+        margin: 0 175px;
     }
     .picture {
         width: 30%;
+    }
+    /* FOOTER */
+    footer {
+        max-width: 1440px;
+    }
+    .address {
+        padding: 7px 0 0 185px;
+        font-size: 18px;
+    }
+    .phone {
+        padding: 18px 0 0 185px;
+    }
+    .mail {
+        padding-left: 185px;
+    }
+    .socials {
+        padding: 18px 0 20px 185px;
+    }
+    .footer {
+        font-size: 18px;
+        padding: 0 0 48px 185px;
+    }
+    .contact {
+        font-size: 30px;
     }
 }

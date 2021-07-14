@@ -1,5 +1,123 @@
 @media only screen and (min-width: 1024px) {
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-left: 185px;
+        margin-left: 0;
+    }
     .hero_part {
         background: url(../../images/hero1440.jpg) no-repeat center;
+        height: 409px;
+    }
+    .hero_title {
+        font-size: 55px;
+        width: 437px;
+        margin-top: 70px;
+    }
+    .hero_p {
+        font-size: 24px;
+        width: 437px;
+    }
+    .hero_text {
+        left: 185px;
+    }
+    /* ABOUT US */
+    .about_us_h2 {
+        padding: 100px 0 0 185px;
+        font-size: 48px;
+        padding: 100px 0 0 185px;
+    }
+    .about_us_p {
+        width: 40%;
+        padding-bottom: 40px;
+        font-size: 24px;
+    }
+    .about_us {
+        padding: 40px 185px;
+    }
+    /* WEATHER */
+    .local_weather {
+        background: url("../../images/weather2.jpg") no-repeat center;
+        padding: 100px 100px 17px 100px;
+    }
+    .summary {
+        width: 900px;
+    }
+    .forecast {
+        width: 1069px;
+    }
+    .sum {
+        font-size: 40px;
+    }
+    .item {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .forecastdiv {
+        margin: 30px 59px;
+    }
+    #forecast_title {
+        font-size: 36px;
+    }
+    .forecasts {
+        font-size: 24px;
+    }
+    /* LOCAL COMPANIES */
+    .local_images {
+        width: 1069px;
+        margin: 0 auto;
+    }
+    .local_companies {
+        font-size: 36px;
+    }
+    .block {
+        display: block;
+    }
+    #loc1 {
+        width: 564px;
+        padding-right: 52px;
+    }
+    #loc2 {
+        width: 447px;
+        height: 444px;
+        padding-bottom: 52px;
+    }
+    #loc3 {
+        width: 447px;
+        height: 444px;
+        padding: 10px 0 0 0;
+    }
+    .events {
+        width: 700px;
+    }
+    .join_button {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    /* FOOTER */
+    footer {
+        max-width: 1440px;
+    }
+    .address {
+        padding: 7px 0 0 185px;
+        font-size: 18px;
+    }
+    .phone {
+        padding: 18px 0 0 185px;
+    }
+    .mail {
+        padding-left: 185px;
+    }
+    .socials {
+        padding: 18px 0 20px 185px;
+    }
+    .footer {
+        font-size: 18px;
+        padding: 0 0 48px 185px;
+    }
+    .contact {
+        font-size: 30px;
     }
 }
