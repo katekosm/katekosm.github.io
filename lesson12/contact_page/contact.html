@@ -8,9 +8,9 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
     <title>Saint Petersburg Page</title>
     <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="../city_page/city_css/small.css">
-    <link rel="stylesheet" href="../city_page/city_css/medium.css">
-    <link rel="stylesheet" href="../city_page/city_css/big.css">
+    <link rel="stylesheet" href="../contact_page/css/small.css">
+    <link rel="stylesheet" href="../contact_page/css/medium.css">
+    <link rel="stylesheet" href="../contact_page/css/big.css">
 </head>
 
 <body>
@@ -34,10 +34,10 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="../home_page/home.html">Home</a></li>
-            <li class="active"><a href="../city_page/city.html">St Petersburg</a></li>
+            <li><a href="../city_page/city.html">St Petersburg</a></li>
             <li><a href="../join_page/join.html">Join</a></li>
             <li><a href="../directory_page/directory.html">Directory</a></li>
-            <li><a href="../contact_page/contact.html">Contact</a></li>
+            <li class="active"><a href="../contact_page/contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -54,24 +54,13 @@
                 <label class="info">Name*: <input class="first" type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}" placeholder="Mark Peterson" required>
                 <label class="info">Email*: <input class="first"  type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="info">Cell Phone*: <input class="first" type="tel" name="phone" placeholder="+7 987 826 98 55" required></label>
-                <label class="info">Business name*: <input class="first" type="text" name="business_name" required ></label>
-                <label class="info">Business address: <input class="first" type="text" name="business_address" ></label>
-                <label class="info">Business website: <input class="first" type="text" name="business_website"  ></label>
-                <label class="textarea">Business description: <textarea  name="comments" id="comments"></textarea></label>
-
-                <div class="user-1">Membership level (annual fees):</div>
-                <label class="user"><input type="radio" name="user_level" value="Non-profit"><span class="option">Non-profit ($100)</span></label>
-                <label class="user"><input type="radio" name="user_level" value="Bronze"><span class="option">Bronze ($200)</span></label>
-                <label class="user"><input type="radio" name="user_level" value="Silver"><span class="option">Silver ($400)</span></label>
-                <label class="user"><input type="radio" name="user_level" value="Gold "><span class="option">Gold ($1000)</span></label>
-
-                <input id="submitBtn" type="submit" value="Join the Chamber">
+                <label class="textarea">Leave a comment: <textarea  name="comments" id="comments"></textarea></label>
+                <input id="submitBtn" type="submit" value="Contact US">
             </fieldset>
         </form>
 
-
-
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7992.497962678262!2d30.34633279826265!3d59.946668810064295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696319db4680dd5%3A0x4225580a26b9e9e0!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LPRgdC60LDRjyDQotC-0YDQs9C-0LLQvi3Qn9GA0L7QvNGL0YjQu9C10L3QvdCw0Y8g0J_QsNC70LDRgtCw!5e0!3m2!1sru!2sru!4v1626457442105!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
 
         <footer>
             <h3 class="contact">Contact information</h3>

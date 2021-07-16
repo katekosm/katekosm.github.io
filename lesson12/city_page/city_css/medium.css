@@ -80,6 +80,7 @@
     .city_pic1 {
         padding: 0 0 30px 24px;
         max-height: 220px;
+        width: 320px;
     }
     .text_2 {
         font-size: 18px;
@@ -88,6 +89,7 @@
     .city_pic2 {
         float: left;
         padding-left: 0;
+        width: 320px;
     }
     .block_3 {
         margin: 0 95px 40px 96px;

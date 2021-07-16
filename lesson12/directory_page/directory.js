@@ -54,35 +54,46 @@ fetch(requestURL)
     .then(function(jsonObject) {
         console.table(jsonObject);
 
-        const towns = jsonObject['towns'];
+        const business = jsonObject['business'];
         for (let i = 0; i, i < towns.length; i++) {
-            if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
-                let text = document.createElement('div');
-                let card = document.createElement('section');
-                let name = document.createElement('h2');
-                let image = document.createElement('img');
-                let motto = document.createElement('h3');
-                let yearFounded = document.createElement('p');
-                let currentPopulation = document.createElement('p');
-                let averageRainfall = document.createElement('p');
 
-                name.textContent = towns[i].name;
-                motto.textContent = towns[i].motto;
-                yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-                currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
-                averageRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall + ' ' + 'in.';
-                image.setAttribute('src', 'images/' + towns[i].photo);
-                image.setAttribute('alt', towns[i].name);
-                text.setAttribute('class', 'text');
+            let card = document.createElement('div');
+            let image = document.createElement('img');
+            let part1 = document.createElement('div')
+            let name = document.createElement('h2');
+            let phone = document.createElement('p');
+            let website = document.createElement('a');
+            let part2 = document.createElement('div')
+            let address = document.createElement('p');
+            let time = document.createElement('p');
 
-                text.appendChild(name);
-                text.appendChild(motto);
-                text.appendChild(yearFounded);
-                text.appendChild(currentPopulation);
-                text.appendChild(averageRainfall);
-                card.appendChild(text);
-                card.appendChild(image);
-                document.querySelector('.cards').appendChild(card);
-            }
+            image.setAttribute('src', '../images/' + business[i].photo);
+            image.setAttribute('class', 'logo');
+            image.setAttribute('alt', 'logo image');
+            part1.setAttribute('class', 'part_1');
+            name.textContent = business[i].name;
+            name.setAttribute('class', 'name');
+            phone.textContent = business[i].phone;
+            phone.setAttribute('class', 'number');
+            website.textContent = "Visit the Website";
+            website.setAttribute('class', 'link');
+            website.setAttribute('href', business[i].website);
+            part2.setAttribute('class', 'part_2');
+            address.textContent = business[i].address;
+            address.setAttribute('class', 'address_1');
+            time.textContent = business[i].time;
+            time.setAttribute('class', 'time');
+
+            card.appendChild(image);
+            card.appendChild(part1);
+            card.appendChild(part2);
+            part1.appendChild(name);
+            part1.appendChild(phone);
+            part1.appendChild(website);
+            part2.appendChild(address);
+            part2.appendChild(time);
+
+            document.querySelector('.cards').appendChild(card);
+
         }
     });
