@@ -138,7 +138,6 @@ form fieldset {
     margin: 30px 0;
     box-shadow: 2px 5px 7px 0px #cfcfcf;
     padding: 15px;
-    max-width: 90%;
     border-radius: 10px;
 }
 
@@ -148,23 +147,29 @@ legend {
 
 label {
     display: block;
-    margin: 10px;
+    margin: 10px 0;
     font-size: 14px;
+}
+
+.first {
+    width: 81%;
+    display: block;
+}
+
+.option {
+    font-size: 16px;
+    margin-left: 5px;
 }
 
 .user-1 {
     margin: 20px 0;
+    font-size: 20px;
 }
 
 form label.info input {
     padding: 16px;
     margin-top: 5px;
 }
-
-
-/* input {
-    width: 81%;
-} */
 
 .form label.top,
 form label.info {
@@ -176,6 +181,7 @@ form label.info {
 
 form label.info input:required {
     border-left: red solid 6px;
+    width: 79%;
 }
 
 form label.top input,
@@ -183,25 +189,32 @@ form label.info input {
     border: solid 1px rgb(111, 111, 111);
     border-radius: 10px;
     font-size: 14px;
-    width: 81%;
 }
-
-.info input {}
 
 .textarea {
     margin: 0;
+    font-size: 19px;
+    padding-top: 10px;
 }
 
 #comments {
     padding: 13px;
-    width: 86%;
+    width: 83%;
+    margin-top: 5px;
 }
 
-.submitBtn {
+#submitBtn {
     background-color: #003561;
     color: white;
-    width: 86%;
-    border-radius: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#submitBtn:hover {
+    background-color: white;
+    color: #003561;
+    border-color: #003561;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
 }
 
 form label.radio {

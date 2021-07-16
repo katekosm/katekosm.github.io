@@ -57,6 +57,25 @@
         max-width: 830px;
         margin: 0 auto;
     }
+    form label.info input:required {
+        border-left: red solid 6px;
+        width: 80%;
+    }
+    #submitBtn {
+        font-size: 20px;
+        max-width: 500px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    #comments {
+        width: 82%;
+    }
+    form fieldset {
+        padding-left: 40px;
+    }
+    .option {
+        font-size: 18px;
+    }
     /* FOOTER */
     footer {
         max-width: 1023px;

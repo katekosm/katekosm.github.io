@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <title>Saint Petersburg Page</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../city_page/city_css/small.css">
+    <link rel="stylesheet" href="../city_page/city_css/medium.css">
+    <link rel="stylesheet" href="../city_page/city_css/big.css">
+</head>
+
+<body>
+    <header>
+        <!-- HEADER HERE -->
+        <div class="header">
+            <a href="../home_page/home.html">
+                <img src="../images/logo.jpg" alt="logo image" class="logo">
+
+                <div class="header_part">
+                    <p class="header_text">CHAMBER OF COMMERCE</p>
+                    <p class="header_text">in Russia, Saint-Petersburg</p>
+                </div>
+            </a>
+        </div>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../home_page/home.html">Home</a></li>
+            <li class="active"><a href="../city_page/city.html">St Petersburg</a></li>
+            <li><a href="../join_page/join.html">Join</a></li>
+            <li><a href="../directory_page/directory.html">Directory</a></li>
+            <li><a href="../contact_page/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="title">Contact Information</h1>
+        <h2 class="subtitle">Saint Petersburg Chamber of Commerce and Industry</h2>
+        <p class="contact_text">46-48 Tchaikovskogo str.</p>
+        <p class="contact_text">191123 Saint-Petersburg</p>
+
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <label class="info">Name*: <input class="first" type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}" placeholder="Mark Peterson" required>
+                <label class="info">Email*: <input class="first"  type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Cell Phone*: <input class="first" type="tel" name="phone" placeholder="+7 987 826 98 55" required></label>
+                <label class="info">Business name*: <input class="first" type="text" name="business_name" required ></label>
+                <label class="info">Business address: <input class="first" type="text" name="business_address" ></label>
+                <label class="info">Business website: <input class="first" type="text" name="business_website"  ></label>
+                <label class="textarea">Business description: <textarea  name="comments" id="comments"></textarea></label>
+
+                <div class="user-1">Membership level (annual fees):</div>
+                <label class="user"><input type="radio" name="user_level" value="Non-profit"><span class="option">Non-profit ($100)</span></label>
+                <label class="user"><input type="radio" name="user_level" value="Bronze"><span class="option">Bronze ($200)</span></label>
+                <label class="user"><input type="radio" name="user_level" value="Silver"><span class="option">Silver ($400)</span></label>
+                <label class="user"><input type="radio" name="user_level" value="Gold "><span class="option">Gold ($1000)</span></label>
+
+                <input id="submitBtn" type="submit" value="Join the Chamber">
+            </fieldset>
+        </form>
+
+
+
+
+
+        <footer>
+            <h3 class="contact">Contact information</h3>
+            <p class="address">Address:<br> Saint Petersburg Chamber of Commerce and Industry<br> 46-48 Tchaikovskogo str.<br> 191123 Saint-Petersburg</p>
+
+            <div class="phone">
+                <img src="../images/phone_icon.svg" alt="phone icon" class="phone_icon">
+                <p class="phone_number">+7 812 719 66 44</p>
+            </div>
+
+            <div class="mail">
+                <img src="../images/mail_icon.svg" alt="mail icon" class="phone_icon">
+                <p class="phone_number">spbcci@spbcci.ru</p>
+            </div>
+
+            <div class="socials">
+                <a target="_blank" href="https://www.youtube.com/"><img src="../images/youtube.svg" alt="youtube icon" class="socials_icon"></a>
+                <a target="_blank" href="https://https://www.instagram.com/?hl=ru"><img src="../images/instagram.svg" alt="instagram icon" class="socials_icon"></a>
+                <a target="_blank" href="https://www.facebook.com/katya.kosmynina/"><img src="../images/fb.svg" alt="facebook icon" class="socials_icon"></a>
+            </div>
+            <div class="footer">©<span id="currentyear"></span> | Ekaterina Kosmynina
+                <br><span id="currentdate"></span>
+                <br><span id="lastupdated"></span>
+            </div>
+        </footer>
+    </main>
+    <script src="../contact_page/contact.js"></script>
+</body>
+
+</html>
