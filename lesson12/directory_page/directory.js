@@ -55,7 +55,7 @@ fetch(requestURL)
         console.table(jsonObject);
 
         const business = jsonObject['business'];
-        for (let i = 0; i, i < towns.length; i++) {
+        for (let i = 0; i, i < business.length; i++) {
 
             let card = document.createElement('div');
             let image = document.createElement('img');
