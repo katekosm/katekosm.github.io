@@ -68,7 +68,7 @@ fetch(requestURL)
             let time = document.createElement('p');
 
             image.setAttribute('src', '../images/' + business[i].photo);
-            image.setAttribute('class', 'logo');
+            image.setAttribute('class', 'card_logo');
             image.setAttribute('alt', 'logo image');
             part1.setAttribute('class', 'part_1');
             name.textContent = business[i].name;
