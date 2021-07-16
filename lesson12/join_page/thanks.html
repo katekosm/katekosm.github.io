@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/favicon.ico">
-    <title>Join Page</title>
+    <title>Join page</title>
     <link rel="stylesheet" href="../normalize.css">
     <link rel="stylesheet" href="../join_page/css/small.css">
     <link rel="stylesheet" href="../join_page/css/medium.css">
@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <!-- HEADER HERE -->
+
     <header>
         <!-- HEADER HERE -->
         <div class="header">
@@ -28,8 +30,8 @@
         </div>
     </header>
 
-
     <!-- NAVIGATION HERE -->
+
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
@@ -42,37 +44,12 @@
     </nav>
 
     <main>
-        <h1>Become a Small Business Member Today</h1>
-        <h2>Gain an Edge. Join the Fight. Grow your Business.</h2>
-        <h3>At the St Petersburg Chamber of Commerce, we have one mission: To help business leaders like you grow your company and create jobs. During this difficult time and always, we’ll never stop working to elevate the voice of small business owners,
-            fighting for policies and legislation that strengthen our economy, and providing the resources, expertise, and insider intel your company needs to succeed.</h3>
-        <h4>We have strength in numbers—and we will never stop fighting for you. Join today!</h4>
-        <h4>Please submit the information below and we'll contact you soon!</h4>
 
-
-        <form method="GET" action="thanks.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-
-                <label class="info">Name*: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}" placeholder="Mark Peterson" required>
-                <label class="info">Title: <input type="text" name="title" placeholder="title"></label>
-                <label class="info">Email*: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="info">Cell Phone: <input type="tel" name="phone" placeholder="+7 987 826 98 55"></label>
-                <label class="info">Business name*: <input type="text" name="business_name" required ></label>
-                <label class="info">Business address: <input type="text" name="business_address" ></label>
-                <label class="info">Business website: <input type="text" name="business_website"  ></label>
-                <label class="textarea">Business description: <textarea name="comments" id="comments"></textarea></label>
-
-                <div class="user-1">Membership level (annual fees):</div>
-                <label class="user"><input type="radio" name="user_level" value="Non-profit"><span class="option">Non-profit ($100)</span></label>
-                <label class="user"><input type="radio" name="user_level" value="Bronze"><span class="option">Bronze ($200)</span></label>
-                <label class="user"><input type="radio" name="user_level" value="Silver"><span class="option">Silver ($400)</span></label>
-                <label class="user"><input type="radio" name="user_level" value="Gold "><span class="option">Gold ($1000)</span></label>
-
-                <input class="submitBtn" type="submit" value="Join the Chamber">
-            </fieldset>
-        </form>
+        <p class="thanks">Thanks for submitting your information. Our team will contact you soon.</p>
     </main>
+
+
+    <!-- </footer> -->
     <footer>
         <h3 class="contact">Contact information</h3>
         <p class="address">Address:<br> Saint Petersburg Chamber of Commerce and Industry<br> 46-48 Chaikovskogo street<br> 191123 Saint-Petersbur</p>
@@ -100,6 +77,8 @@
     </footer>
 
     <script src="../join_page/join.js"></script>
+    </script>
+
 </body>
 
 </html>

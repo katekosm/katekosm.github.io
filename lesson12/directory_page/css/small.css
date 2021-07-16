@@ -13,16 +13,17 @@ body {
 }
 
 .header {
+    display: flex;
     margin: 10px 35px 0;
+}
+
+.header_part {
+    padding-top: 32px;
 }
 
 .header a {
     display: flex;
     text-decoration: none;
-}
-
-.header_part {
-    padding-top: 32px;
 }
 
 .header_text {
@@ -53,6 +54,7 @@ ul {
 }
 
 nav button {
+    /* margin: .2rem 2%; */
     background-color: transparent;
     border: none;
     font-size: 2em;
@@ -82,97 +84,10 @@ nav ul.hide {
     display: none;
 }
 
-.hero_part {
-    height: 251px;
-    background: url(../../images/city.627.jpg) no-repeat center;
-}
-
-
-/* INFORMATION SECTION */
-
-.history {
-    text-align: center;
-    font-family: "Legacy Sans ITC Pro", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 30px auto;
-}
-
-.text {
-    padding: 0 23px 17px 24px;
-    margin: 0 auto;
-}
-
-.block_2 {
-    padding: 0 23px 17px 24px;
-}
-
-.city_pic1,
-.city_pic2 {
-    width: 326px;
-}
-
-.city_pic2 {
-    padding: 0 23px 17px 24px;
-}
-
-.text_2 {
-    margin-top: 0;
-    padding: 0 23px 17px 24px;
-}
-
-
-/* EVENTS   */
-
-.events {
-    padding: 20px;
-    margin: 29px 24px 59px 24px;
-    border: 1px solid #003561;
-}
-
-.upcoming_events {
-    font-family: "Legacy Sans ITC Pro", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-}
-
-
-/* PHOTO GALLERY */
-
-.gallery {
-    text-align: center;
-    font-family: "Legacy Sans ITC Pro", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 30px auto;
-}
-
-.container {
-    display: block;
-    margin-bottom: 60px;
-}
-
-.picture {
-    width: 80%;
-    padding: 10px;
-    box-shadow: 0 10px 12px 0 rgb(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-figcaption {
-    padding: 10px 0;
-}
-
 
 /* FOOTER  */
 
 footer {
-    width: 100%;
     background: #013662;
     color: white;
 }

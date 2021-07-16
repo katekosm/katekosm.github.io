@@ -29,15 +29,13 @@
     li {
         flex-grow: 1;
     }
-    .hero_part {
-        background: url(../../images/hero1023.jpg) no-repeat center;
-    }
     footer {
         margin: 0 auto;
     }
     /* HERO */
     .hero_part {
         height: 430px;
+        background: url(../../images/city.1023.jpg) no-repeat center;
     }
     .wrap {
         position: relative;

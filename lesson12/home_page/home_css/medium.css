@@ -32,9 +32,6 @@
     .hero_part {
         background: url(../../images/hero1023.jpg) no-repeat center;
     }
-    footer {
-        margin: 0 auto;
-    }
     /* HERO */
     .hero_part {
         height: 287px;
@@ -134,6 +131,7 @@
     /* FOOTER */
     footer {
         max-width: 1023px;
+        margin: 0 auto;
     }
     .address {
         padding: 7px 0 0 150px;

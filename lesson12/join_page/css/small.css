@@ -1,0 +1,259 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Avenir";
+    color: #003561;
+}
+
+
+/* HEADER HERE */
+
+.logo {
+    padding: 22px 0 26px 0;
+}
+
+.header {
+    display: flex;
+    margin: 10px 35px 0;
+}
+
+.header_part {
+    padding-top: 32px;
+}
+
+.header a {
+    display: flex;
+    text-decoration: none;
+}
+
+.header_text {
+    margin: 0;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    font-size: 1em;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-weight: 400;
+    color: #003561;
+}
+
+
+/* NAVIGATION HERE  */
+
+nav {
+    border: 1px solid #003561;
+}
+
+li {
+    color: #003561;
+    list-style-type: none;
+    font-family: "Legacy Sans ITC Pro", sa;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    /* margin: .2rem 2%; */
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    color: #003561;
+    padding: 10px 44px;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #003561;
+    border-top: 1px solid #003561;
+    padding: 15px 44px;
+}
+
+nav ul li a:hover {
+    background-color: #003561;
+    color: white;
+}
+
+.active {
+    background-color: #FF9241;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/* main */
+
+main {
+    margin: 0 34px;
+}
+
+h1 {
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 34px;
+    padding-top: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 2px 0;
+}
+
+h3 {
+    font-family: "avenir", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h4 {
+    color: #FF9241;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    margin: 0;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.thanks {
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 100px;
+    margin: 40px 0;
+}
+
+
+/* ------ form  ------ */
+
+form fieldset {
+    border: 1px solid #003561;
+    margin: 30px 0;
+    box-shadow: 2px 5px 7px 0px #cfcfcf;
+    padding: 15px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+legend {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.user-1 {
+    margin: 20px 0;
+}
+
+form label.info input {
+    padding: 16px;
+    margin-top: 5px;
+}
+
+
+/* input {
+    width: 81%;
+} */
+
+.form label.top,
+form label.info {
+    display: block;
+    padding: 10px 0 5px 0;
+    font-size: 19px;
+    margin: 2px auto;
+}
+
+form label.info input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input,
+form label.info input {
+    border: solid 1px rgb(111, 111, 111);
+    border-radius: 10px;
+    font-size: 14px;
+    width: 81%;
+}
+
+.info input {}
+
+.textarea {
+    margin: 0;
+}
+
+#comments {
+    padding: 13px;
+    width: 86%;
+}
+
+.submitBtn {
+    background-color: #003561;
+    color: white;
+    width: 86%;
+    border-radius: 0;
+}
+
+form label.radio {
+    display: block;
+    text-align: left;
+}
+
+
+/* FOOTER  */
+
+footer {
+    width: 100%;
+    background: #003561;
+    color: white;
+}
+
+.contact {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Legacy Sans ITC Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px;
+    margin: 0;
+    color: white;
+}
+
+.address {
+    margin: 0;
+    padding: 7px 0 0 48px;
+    font-size: 12px;
+}
+
+.phone {
+    display: flex;
+    padding: 14px 0 0 48px;
+}
+
+.mail {
+    display: flex;
+    padding-left: 48px;
+}
+
+.phone_number {
+    margin: 6px 0 0 2px;
+}
+
+.socials {
+    padding: 10px 0 20px 48px;
+}
+
+.footer {
+    font-size: 12px;
+    padding: 0 0 48px 48px;
+}

@@ -1,0 +1,59 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-left: 185px;
+        margin-left: 0;
+    }
+    .hero_part {
+        background: url(../../images/hero1440.jpg) no-repeat center;
+        height: 409px;
+    }
+    .hero_title {
+        font-size: 55px;
+        width: 437px;
+        margin-top: 70px;
+    }
+    .hero_p {
+        font-size: 24px;
+        width: 437px;
+    }
+    .hero_text {
+        left: 185px;
+    }
+    main {
+        margin: 0 185px;
+    }
+    .thanks {
+        font-size: 30px;
+        font-weight: 400;
+        margin: 0;
+        padding: 200px 0;
+    }
+    /* FOOTER */
+    footer {
+        max-width: 1440px;
+    }
+    .address {
+        padding: 7px 0 0 185px;
+        font-size: 18px;
+    }
+    .phone {
+        padding: 18px 0 0 185px;
+    }
+    .mail {
+        padding-left: 185px;
+    }
+    .socials {
+        padding: 18px 0 20px 185px;
+    }
+    .footer {
+        font-size: 18px;
+        padding: 0 0 48px 185px;
+    }
+    .contact {
+        font-size: 30px;
+    }
+}
