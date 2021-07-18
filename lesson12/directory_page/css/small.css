@@ -90,13 +90,12 @@ nav ul.hide {
 .title {
     font-family: "Legacy Sans ITC Pro", sans-serif;
     font-size: 30px;
-    padding: 40px 0 20px 0;
-    margin: 0 20px;
+    padding: 40px 0 30px 0;
+    margin: 0 30px;
 }
 
-.view,
-.title_2 {
-    margin: 0 20px 20px 20px;
+#btnContainer {
+    margin: 0 30px 30px 30px;
 }
 
 .view img {
@@ -147,7 +146,7 @@ nav ul.hide {
 }
 
 .btn.active {
-    background-color: #666;
+    background-color: #013662;
     color: white;
 }
 
@@ -173,16 +172,19 @@ footer {
     margin: 0;
     padding: 7px 0 0 48px;
     font-size: 12px;
+    line-height: 1.4;
 }
 
 .phone {
     display: flex;
     padding: 14px 0 0 48px;
+    margin-right: 5px;
 }
 
 .mail {
     display: flex;
     padding-left: 48px;
+    margin-right: 5px;
 }
 
 .phone_number {
@@ -196,6 +198,7 @@ footer {
 .footer {
     font-size: 12px;
     padding: 0 0 48px 48px;
+    line-height: 1.4;
 }
 
 

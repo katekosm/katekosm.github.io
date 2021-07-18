@@ -11,8 +11,7 @@
     .title {
         margin: 0 150px;
     }
-    .view,
-    .title_2 {
+    #btnContainer {
         margin: 0 150px 30px 150px;
     }
     /* ------- CARD ----------- */
