@@ -96,7 +96,11 @@ nav ul.hide {
 
 .view,
 .title_2 {
-    margin: 0 20px;
+    margin: 0 20px 20px 20px;
+}
+
+.view img {
+    margin-right: 10px;
 }
 
 
@@ -112,11 +116,13 @@ nav ul.hide {
 }
 
 .name,
-.number {
+.number,
+.time {
     margin: 0;
 }
 
-.part_1 {
+.part_1,
+.part_2 {
     margin: 20px;
 }
 
