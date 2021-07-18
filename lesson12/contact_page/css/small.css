@@ -87,6 +87,10 @@ nav ul.hide {
 
 /* main */
 
+.main_div {
+    margin: 20px;
+}
+
 .title {
     font-family: "Legacy Sans ITC Pro", sans-serif;
     font-size: 34px;
@@ -94,28 +98,21 @@ nav ul.hide {
     margin: 0;
 }
 
-h2 {
+.subtitle {
     font-family: "Legacy Sans ITC Pro", sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
-    margin: 2px 0;
+    margin: 0 0 10px 0;
 }
 
-h3 {
+.contact_text {
     font-family: "avenir", sans-serif;
     color: black;
     font-size: 18px;
     font-weight: 400;
-}
-
-h4 {
+    margin: 0;
     color: #FF9241;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-    font-size: 20px;
-    margin: 0;
-    font-family: "Legacy Sans ITC Pro", sans-serif;
-    font-weight: 400;
-    margin-bottom: 10px;
 }
 
 .thanks {
@@ -123,7 +120,7 @@ h4 {
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 100px;
-    margin: 40px 0;
+    margin: 40px 20px;
 }
 
 
@@ -203,8 +200,10 @@ form label.info input {
 #submitBtn {
     background-color: #003561;
     color: white;
-    width: 100%;
+    width: 95%;
     border-radius: 5px;
+    margin: 30px 0;
+    height: 65px;
 }
 
 #submitBtn:hover {
@@ -212,11 +211,6 @@ form label.info input {
     color: #003561;
     border-color: #003561;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
-}
-
-form label.radio {
-    display: block;
-    text-align: left;
 }
 
 .map {

@@ -36,10 +36,6 @@
         display: flex;
         margin: 50px auto;
     }
-    .logo {
-        width: 185px;
-        padding: 0;
-    }
     .name {
         font-family: "Legacy Sans ITC Pro", sans-serif;
         font-size: 36px;

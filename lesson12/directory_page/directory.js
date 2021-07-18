@@ -67,6 +67,7 @@ fetch(requestURL)
             let address = document.createElement('p');
             let time = document.createElement('p');
 
+            card.setAttribute('class', 'card');
             image.setAttribute('src', 'images/' + business[i].photo);
             image.setAttribute('class', 'card_logo');
             image.setAttribute('alt', 'logo image');
