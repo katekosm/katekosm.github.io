@@ -41,43 +41,32 @@
         margin: 0 150px;
     }
     /* CARD */
-    .cards {
-        margin: 0 150px;
-    }
     .card {
-        box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
         display: flex;
-        margin: 50px auto;
+        max-width: 930px;
+        margin: 20px auto;
+        position: relative;
     }
     .card_logo {
         width: 185px;
     }
-    .name {
-        font-family: "Legacy Sans ITC Pro", sans-serif;
-        font-size: 36px;
-        font-weight: 400;
-        margin: 0;
-    }
-    .number {
-        font-size: 20px;
-        font-family: "avenir", sans-serif;
-        margin: 0;
-    }
     .website {
-        color: rosybrown;
         margin: 5px;
-    }
-    .part_1,
-    .part_2 {
-        padding: 20px;
     }
     .address_1 {
         margin: 0;
-        padding: 20px 0;
+        padding: 31px 0 0 0;
     }
     .time {
         color: rgba(0, 0, 0, 0.5);
         margin: 0;
+    }
+    .part_1 {
+        margin-bottom: 0;
+    }
+    .part_2 {
+        position: absolute;
+        right: 0;
     }
     /* FOOTER */
     footer {

@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: "Avenir";
     color: #003561;
+    height: 100%
 }
 
 
@@ -281,4 +282,26 @@ footer {
 .footer {
     font-size: 12px;
     padding: 0 0 48px 48px;
+}
+
+
+/* scroll */
+
+div.scrollup {
+    position: fixed;
+    color: #fff;
+    background-color: #013662;
+    right: 30px;
+    bottom: 20px;
+    padding: 9px 13px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+
+div.scrollup:hover {
+    background-color: #000;
+    /* цвет заднего фона при наведении */
 }
