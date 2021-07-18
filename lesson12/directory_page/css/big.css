@@ -15,21 +15,21 @@
         margin: 0 150px 30px 150px;
     }
     /* ------- CARD ----------- */
-    /* .cards {
+    .cards_view_list {
         margin: 30px 185px;
     }
-    .card {
+    .cards_view_list .card {
         max-width: 100%;
         margin: 20px 0;
-    } */
+    }
     /* ----------- CARD GRID -------- */
-    .card {
+    .cards_view_grid {
         width: 30%;
         margin: 0;
         margin-right: 18px;
         margin-bottom: 30px;
     }
-    .cards {
+    .cards_view_grid .cards {
         display: flex;
         flex-wrap: wrap;
         margin: 0 150px;

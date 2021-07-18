@@ -40,43 +40,43 @@
         margin: 0 130px 30px 130px;
     }
     /* ----------- CARD LIST--------- */
-    /* .card {
+    .cards_view_list {
         display: flex;
         max-width: 930px;
         margin: 20px auto;
         position: relative;
         height: 128px;
     }
-    .card_logo {
+    .cards_view_list .card_logo {
         width: 185px;
     }
-    .website {
+    .cards_view_list .website {
         margin: 5px;
     }
-    .address_1 {
+    .cards_view_list .address_1 {
         margin: 0;
         padding: 31px 0 0 0;
     }
-    .time {
+    .cards_view_list .time {
         color: rgba(0, 0, 0, 0.5);
         margin: 0;
     }
-    .part_1 {
+    .cards_view_list .part_1 {
         margin-bottom: 0;
     }
-    .part_2 {
+    .cards_view_list .part_2 {
         position: absolute;
         right: 0;
         max-width: 300px;
-    } */
+    }
     /* ----------- CARD GRID -------- */
-    .card {
+    .cards_view_grid {
         width: 40%;
         margin: 0;
         margin-right: 30px;
         margin-bottom: 30px;
     }
-    .cards {
+    .cards_view_grid .cards {
         display: flex;
         flex-wrap: wrap;
         margin: 0 130px;

@@ -94,7 +94,31 @@ fetch(requestURL)
             part2.appendChild(address);
             part2.appendChild(workHours);
 
-            document.querySelector('.cards').appendChild(card);
+            const cards = document.querySelector('.cards');
+            cards.appendChild(card);
+            cards.classList.add('cards_view_grid');
 
         }
     });
+
+function listView() {
+    const cards = document.querySelector('.cards');
+    const listBtn = document.querySelector('.btn_list');
+    const gridBtn = document.querySelector('.btn_grid');
+
+    cards.classList.remove('cards_view_grid');
+    cards.classList.add('cards_view_list');
+    gridBtn.classList.remove('active');
+    listBtn.classList.add('active');
+}
+
+function gridView() {
+    const cards = document.querySelector('.cards');
+    const listBtn = document.querySelector('.btn_list');
+    const gridBtn = document.querySelector('.btn_grid');
+
+    cards.classList.remove('cards_view_list');
+    cards.classList.add('cards_view_grid');
+    listBtn.classList.remove('active');
+    gridBtn.classList.add('active');
+}
