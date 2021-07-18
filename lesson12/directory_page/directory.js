@@ -41,9 +41,6 @@ document.querySelector("#currentyear").textContent = year;
 
 
 
-// business cards
-
-
 // for the cards
 const requestURL = "https://katekosm.github.io/lesson12/directory_page/directory.json";
 
@@ -122,3 +119,20 @@ function gridView() {
     listBtn.classList.remove('active');
     gridBtn.classList.add('active');
 }
+
+// for the scroll
+$(function() {
+    $('.scrollup').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+    })
+})
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+        $('.scrollup').fadeIn();
+    } else {
+        $('.scrollup').fadeOut();
+    }
+});
