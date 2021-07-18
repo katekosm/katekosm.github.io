@@ -4,23 +4,23 @@
             "photo": "logo1.jpg",
             "number": 89522135882,
             "website": "http://pio-nero.com/",
-            "address": "Adress: 197198 | Saint Petersburg | Bolshoy Prospet 20/5",
+            "address": "Address: 197198 | Saint Petersburg | Bolshoy Prospet 20/5",
             "workHours": "Work Hours: 8:30am - 02.00am"
         },
         {
             "name": "Deda Khinkali",
             "photo": "logo2.jpg",
             "number": 88126430430,
-            "website": "Address: https://white-group.ru/restaurants/view/kafe-deda-khinkali",
-            "address": "194044 | Saint Petersburg | Finlyandskiy Prospekt 1",
+            "website": "https://white-group.ru/restaurants/view/kafe-deda-khinkali",
+            "address": "Address: 194044 | Saint Petersburg | Finlyandskiy Prospekt 1",
             "workHours": "Work Hours: 12.00pm - 11pm"
         },
         {
             "name": "Hertz",
             "photo": "logo3.jpg",
             "number": 88124547009,
-            "website": "Address: https://www.hertz.ru/rentacar/reservation",
-            "address": "Saint Petersburg | Pulkovo - Arrival hall",
+            "website": "https://www.hertz.ru/rentacar/reservation",
+            "address": "Address: Saint Petersburg | Pulkovo - Arrival hall",
             "workHours": "Work Hours: 24 hours"
         },
         {
