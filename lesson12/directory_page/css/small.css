@@ -201,6 +201,13 @@ footer {
     line-height: 1.4;
 }
 
+#submitBtn {
+    background-color: #003561;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
 
 /* scroll */
 
