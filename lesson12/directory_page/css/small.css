@@ -107,6 +107,19 @@ nav ul.hide {
     margin: 20px;
 }
 
+.card_logo {
+    width: 100px;
+}
+
+.name,
+.number {
+    margin: 0;
+}
+
+.part_1 {
+    margin: 20px;
+}
+
 
 /* FOOTER  */
 
