@@ -29,6 +29,17 @@
     li {
         flex-grow: 1;
     }
+    /* MAIN PART */
+    .title {
+        font-family: "Legacy Sans ITC Pro", sans-serif;
+        font-size: 34px;
+        padding: 40px 0 20px 0;
+        margin: 0 150px;
+    }
+    .view,
+    .title_2 {
+        margin: 0 150px;
+    }
     /* CARD */
     .card {
         box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
