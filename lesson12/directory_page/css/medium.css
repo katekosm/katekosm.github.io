@@ -34,18 +34,19 @@
         font-family: "Legacy Sans ITC Pro", sans-serif;
         font-size: 34px;
         padding: 40px 0 20px 0;
-        margin: 0 150px;
+        margin: 0 130px;
     }
     .view,
     .title_2 {
-        margin: 0 150px;
+        margin: 0 130px 30px 130px;
     }
-    /* CARD */
-    .card {
+    /* ----------- CARD LIST--------- */
+    /* .card {
         display: flex;
         max-width: 930px;
         margin: 20px auto;
         position: relative;
+        height: 128px;
     }
     .card_logo {
         width: 185px;
@@ -67,6 +68,19 @@
     .part_2 {
         position: absolute;
         right: 0;
+        max-width: 300px;
+    } */
+    /* ----------- CARD GRID -------- */
+    .card {
+        width: 40%;
+        margin: 0;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 130px;
     }
     /* FOOTER */
     footer {

@@ -4,29 +4,57 @@
         margin: 0 auto;
     }
     .header {
-        padding-left: 185px;
+        padding-left: 150px;
         margin-left: 0;
+    }
+    /* MAIN PART */
+    .title {
+        margin: 0 150px;
+    }
+    .view,
+    .title_2 {
+        margin: 0 150px 30px 150px;
+    }
+    /* ------- CARD ----------- */
+    /* .cards {
+        margin: 30px 185px;
+    }
+    .card {
+        max-width: 100%;
+        margin: 20px 0;
+    } */
+    /* ----------- CARD GRID -------- */
+    .card {
+        width: 30%;
+        margin: 0;
+        margin-right: 18px;
+        margin-bottom: 30px;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 150px;
     }
     /* FOOTER */
     footer {
         max-width: 1440px;
     }
     .address {
-        padding: 7px 0 0 185px;
+        padding: 7px 0 0 150px;
         font-size: 18px;
     }
     .phone {
-        padding: 18px 0 0 185px;
+        padding: 18px 0 0 150px;
     }
     .mail {
-        padding-left: 185px;
+        padding-left: 150px;
     }
     .socials {
-        padding: 18px 0 20px 185px;
+        padding: 18px 0 20px 150px;
     }
     .footer {
         font-size: 18px;
-        padding: 0 0 48px 185px;
+        padding: 0 0 48px 150px;
     }
     .contact {
         font-size: 30px;

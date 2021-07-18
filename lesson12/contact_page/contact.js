@@ -42,3 +42,19 @@ let lUpdated = `Last Update: ${string}.`;
 document.querySelector("#currentdate").textContent = fullDate;
 document.querySelector("#lastupdated").textContent = lUpdated;
 document.querySelector("#currentyear").textContent = year;
+
+$(function() {
+    $('.scrollup').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+    })
+})
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+        $('.scrollup').fadeIn();
+    } else {
+        $('.scrollup').fadeOut();
+    }
+});
