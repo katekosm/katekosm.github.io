@@ -40,7 +40,7 @@
         margin: 0 130px 30px 130px;
     }
     /* ----------- CARD LIST--------- */
-    .cards_view_list {
+    .cards_view_list .card {
         display: flex;
         max-width: 930px;
         margin: 20px auto;
@@ -70,13 +70,13 @@
         max-width: 300px;
     }
     /* ----------- CARD GRID -------- */
-    .cards_view_grid {
+    .cards_view_grid .card {
         width: 40%;
         margin: 0;
         margin-right: 30px;
         margin-bottom: 30px;
     }
-    .cards_view_grid .cards {
+    .cards_view_grid {
         display: flex;
         flex-wrap: wrap;
         margin: 0 130px;

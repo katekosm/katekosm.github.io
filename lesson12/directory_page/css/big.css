@@ -4,15 +4,15 @@
         margin: 0 auto;
     }
     .header {
-        padding-left: 150px;
+        padding-left: 185px;
         margin-left: 0;
     }
     /* MAIN PART */
     .title {
-        margin: 0 150px;
+        margin: 0 185px;
     }
     #btnContainer {
-        margin: 0 150px 30px 150px;
+        margin: 0 185px 30px 185px;
     }
     /* ------- CARD ----------- */
     .cards_view_list {
@@ -23,37 +23,37 @@
         margin: 20px 0;
     }
     /* ----------- CARD GRID -------- */
-    .cards_view_grid {
+    .cards_view_grid .card {
         width: 30%;
         margin: 0;
         margin-right: 18px;
         margin-bottom: 30px;
     }
-    .cards_view_grid .cards {
+    .cards_view_grid {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 150px;
+        margin: 0 185px;
     }
     /* FOOTER */
     footer {
         max-width: 1440px;
     }
     .address {
-        padding: 7px 0 0 150px;
+        padding: 7px 0 0 185px;
         font-size: 18px;
     }
     .phone {
-        padding: 18px 0 0 150px;
+        padding: 18px 0 0 185px;
     }
     .mail {
-        padding-left: 150px;
+        padding-left: 185px;
     }
     .socials {
-        padding: 18px 0 20px 150px;
+        padding: 18px 0 20px 185px;
     }
     .footer {
         font-size: 18px;
-        padding: 0 0 48px 150px;
+        padding: 0 0 48px 185px;
     }
     .contact {
         font-size: 30px;
