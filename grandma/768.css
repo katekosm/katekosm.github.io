@@ -40,6 +40,9 @@
         margin: 50px auto;
         width: 768px;
     }
+    .header_li {
+        flex-grow: 1;
+    }
     .text {
         margin: 7px;
     }

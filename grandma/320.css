@@ -95,11 +95,6 @@ nav ul.hide {
     display: block;
 }
 
-.grandma:hover {
-    transition: all 0.3s ease-out;
-    transform: scale(1.1);
-}
-
 .heading {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -173,15 +168,15 @@ nav ul.hide {
     padding-top: 26px;
 }
 
-.card_1,
-.card_2,
-.card_3 {
+.card {
     background: white;
     padding: 20px;
     margin: 0 auto 20px;
     border-radius: 4px;
     width: 260px;
     height: 210px;
+    direction: flex;
+    direction: column;
 }
 
 .text_h3 {
@@ -198,6 +193,7 @@ nav ul.hide {
     color: #1E2125;
     margin: 0 0 20px 0;
     text-align: center;
+    flex-grow: 1;
 }
 
 .text_h5 {
