@@ -17,8 +17,8 @@
         text-align: center;
         display: block;
         position: absolute;
-        top: 10px;
-        left: 50%;
+        top: 2%;
+        left: 46%;
     }
     .logo_1 {
         width: 80px;
@@ -65,6 +65,9 @@
         font-size: 20px;
         text-align: center;
     }
+    .text_h3 {
+        font-size: 22px;
+    }
     .block3 {
         display: flex;
         margin: 0 auto;
@@ -81,29 +84,50 @@
         width: 600px;
         height: 350px;
     }
-    .form {
+    /* .connect {
         display: flex;
+        flex-direction: column;
+    } */
+    .form {
         margin: 40px auto 0;
         padding-bottom: 50px;
-        width: 600px;
+        width: 610px;
+        display: flex;
+    }
+    .connect_form {
+        flex-grow: 1;
     }
     .avocado_pic {
         margin: 0;
         padding: 5px;
-        width: 270px;
+        width: 255px;
     }
     .footer_block {
         display: flex;
+        flex-direction: row-reverse;
     }
     .text_h6 {
-        margin: 23px 1px 18px 140px;
         font-size: 18px;
+        flex-grow: 1;
+        padding: 20px 0;
     }
     .footer_ {
-        margin-left: 100px;
         padding: 20px 0;
+        width: 700px;
+        margin: 0 auto;
     }
     .photos {
         max-width: 800px;
     }
+}
+
+
+/*********** Article **********/
+
+.part1_part2 {
+    display: flex;
+}
+
+.article_img {
+    margin: 20px auto;
 }

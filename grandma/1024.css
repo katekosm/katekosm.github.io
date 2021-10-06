@@ -1,5 +1,10 @@
 @media only screen and (min-width: 1024px) {
     .service_block {
         display: flex;
+        width: 929px;
+        margin: 0 auto;
+    }
+    .photos {
+        max-width: 800px;
     }
 }
