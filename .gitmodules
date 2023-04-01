@@ -1,4 +1,4 @@
 [submodule "zengarden"]
 	path = zengarden
-	url = https://github.com/katekosm/zengarden.git
+	url = https://github.com/katekosm/zengarden
 	branch = master
